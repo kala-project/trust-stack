@@ -1,0 +1,519 @@
+{
+  "schema_version": "0.1.0",
+  "catalog_type": "human-curated-local-evaluation-catalog",
+  "generated_at": "2026-10-01T05:30:24Z",
+  "legal_status": "No legal authorization is asserted. Access and rights observations require counsel or data-owner review before production ingestion, redistribution, or commercial use.",
+  "collection_method": "Microsoft and Apple entries were collected with manually initiated curl probes; supplemental curated sources use explicit-whitelist Python urllib GET probes; redirects are followed without credentials, access-control bypass, browser impersonation, or challenge-specific retry logic.",
+  "sources": [
+    {
+      "id": "msft-fy2025-q4-press-release",
+      "publisher": "Microsoft Corporation",
+      "title": "Microsoft FY2025 Q4 press release and webcast page",
+      "source_type": "issuer_earnings_release_html",
+      "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2025-Q4/press-release-webcast",
+      "period": "quarter ended 2025-06-30",
+      "published_at": "2025-07-30",
+      "published_at_precision": "date",
+      "published_at_basis": "Dateline in the official release: July 30, 2025.",
+      "access": {
+        "observed_at": "2026-09-23T12:17:58Z",
+        "http_status": 200,
+        "result": "accessible",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "artifact": {
+        "path": "data/raw/microsoft-fy2025-q4-press-release.html",
+        "collected_at": "2026-09-23T12:18:50Z",
+        "sha256": "169c062bba9ab8140a2b7633048e890400111f533cf2ec56a671f2374668b91c",
+        "bytes": 534093
+      },
+      "rights": {
+        "terms_url": "https://www.microsoft.com/en-us/legal/terms-of-use",
+        "assessment": "review_required",
+        "use_boundary": "Local evaluation only; redistribution permission has not been established.",
+        "basis": "Microsoft's general Terms of Use state personal and non-commercial use unless otherwise specified and restrict copying and distribution. No source-specific grant was identified on this page."
+      },
+      "notes": "Release states revenue of $76.4 billion, up 18% (17% constant currency), and identifies the quarter end separately from release date."
+    },
+    {
+      "id": "msft-fy2025-q4-segment-revenues",
+      "publisher": "Microsoft Corporation",
+      "title": "Microsoft FY2025 Q4 segment revenue and operating income",
+      "source_type": "issuer_segment_table_html",
+      "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2025-Q4/segment-revenues",
+      "period": "fiscal years ended 2025-06-30, 2024-06-30, and 2023-06-30",
+      "published_at": null,
+      "published_at_precision": null,
+      "published_at_basis": "No explicit publication timestamp was identified in the retrieved page; quarter labeling is not treated as publication time.",
+      "access": {
+        "observed_at": "2026-09-23T12:17:58Z",
+        "http_status": 200,
+        "result": "accessible",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "artifact": {
+        "path": "data/raw/microsoft-fy2025-q4-segment-revenues.html",
+        "collected_at": "2026-09-23T12:18:59Z",
+        "sha256": "c7ebaff7fafbb92d2f542dfc0e1e344a4240b953e6335f89906713401812c69b",
+        "bytes": 187039
+      },
+      "rights": {
+        "terms_url": "https://www.microsoft.com/en-us/legal/terms-of-use",
+        "assessment": "review_required",
+        "use_boundary": "Local evaluation only; redistribution permission has not been established.",
+        "basis": "The general Microsoft terms are restrictive; no source-specific reuse license was found."
+      },
+      "notes": "The page says certain prior-period amounts were recast to conform to how Microsoft internally manages and monitors its business. Treat as a presentation/comparability change, not an accounting error."
+    },
+    {
+      "id": "msft-fy2024-q4-press-release",
+      "publisher": "Microsoft Corporation",
+      "title": "Microsoft FY2024 Q4 press release and webcast page",
+      "source_type": "issuer_earnings_release_html",
+      "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2024-Q4/press-release-webcast",
+      "period": "quarter ended 2024-06-30",
+      "published_at": "2024-07-30",
+      "published_at_precision": "date",
+      "published_at_basis": "Dateline in the official release: July 30, 2024.",
+      "access": {
+        "observed_at": "2026-09-23T12:17:58Z",
+        "http_status": 200,
+        "result": "accessible",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "artifact": {
+        "path": "data/raw/microsoft-fy2024-q4-press-release.html",
+        "collected_at": "2026-09-23T12:19:01Z",
+        "sha256": "4a3a24f148ba641711d24c356bad796c15126564dfbe0ec3f7877f32fa0ff0ad",
+        "bytes": 662233
+      },
+      "rights": {
+        "terms_url": "https://www.microsoft.com/en-us/legal/terms-of-use",
+        "assessment": "review_required",
+        "use_boundary": "Local evaluation only; redistribution permission has not been established.",
+        "basis": "The general Microsoft terms are restrictive; no source-specific reuse license was found."
+      },
+      "notes": "Historical release states revenue of $64.7 billion. Preserve this contemporaneous release separately from later recast segment comparatives."
+    },
+    {
+      "id": "msft-fy2024-q4-segment-revenues-original-page",
+      "publisher": "Microsoft Corporation",
+      "title": "Microsoft FY2024 Q4 segment revenue and operating income page",
+      "source_type": "issuer_segment_table_html",
+      "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2024-Q4/segment-revenues",
+      "period": "fiscal years ended 2024-06-30, 2023-06-30, and 2022-06-30",
+      "published_at": null,
+      "published_at_precision": null,
+      "published_at_basis": "No explicit publication timestamp was identified in the retrieved page.",
+      "access": {
+        "observed_at": "2026-09-23T12:17:58Z",
+        "http_status": 200,
+        "result": "accessible",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "artifact": {
+        "path": "data/raw/microsoft-fy2024-q4-segment-revenues.html",
+        "collected_at": "2026-09-23T12:19:09Z",
+        "sha256": "1932eb7fe6463ebefd678ae08e450952edd63f757c1063e0dd1beda398d9c912",
+        "bytes": 183418
+      },
+      "rights": {
+        "terms_url": "https://www.microsoft.com/en-us/legal/terms-of-use",
+        "assessment": "review_required",
+        "use_boundary": "Local evaluation only; redistribution permission has not been established.",
+        "basis": "The general Microsoft terms are restrictive; no source-specific reuse license was found."
+      },
+      "notes": "Use as the FY2024-era presentation counterpart. Do not silently mix its segment rows with FY2025's recast comparatives."
+    },
+    {
+      "id": "msft-annual-reports-index",
+      "publisher": "Microsoft Corporation",
+      "title": "Microsoft annual reports index",
+      "source_type": "issuer_report_index",
+      "url": "https://www.microsoft.com/en-us/Investor/annual-reports.aspx",
+      "final_url": "https://www.microsoft.com/en-us/investor/annual-reports",
+      "period": null,
+      "published_at": null,
+      "published_at_precision": null,
+      "published_at_basis": "Index page; no single publication date applies.",
+      "access": {
+        "observed_at": "2026-09-23T12:17:58Z",
+        "http_status": 200,
+        "result": "accessible_not_downloaded",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "artifact": null,
+      "rights": {
+        "terms_url": "https://www.microsoft.com/en-us/legal/terms-of-use",
+        "assessment": "review_required",
+        "use_boundary": "Candidate discovery source only.",
+        "basis": "No source-specific reuse license was established."
+      },
+      "notes": "Candidate official path for FY2024 annual materials; individual report files were not downloaded in this bounded check."
+    },
+    {
+      "id": "aapl-fy2025-q4-press-release",
+      "publisher": "Apple Inc.",
+      "title": "Apple reports fourth quarter results",
+      "source_type": "issuer_earnings_release_html",
+      "url": "https://www.apple.com/newsroom/2025/10/apple-reports-fourth-quarter-results/",
+      "period": "quarter ended 2025-09-27",
+      "published_at": "2025-10-30",
+      "published_at_precision": "date",
+      "published_at_basis": "Publication date displayed by Apple Newsroom: October 30, 2025.",
+      "access": {
+        "observed_at": "2026-09-23T12:17:58Z",
+        "http_status": 200,
+        "result": "accessible",
+        "content_type": "text/html;charset=utf-8"
+      },
+      "artifact": {
+        "path": "data/raw/apple-fy2025-q4-press-release.html",
+        "collected_at": "2026-09-23T12:19:11Z",
+        "sha256": "662dd6be5f062577a699d42a611f88ae03f7ba287a4db63590f92b10d9f19db8",
+        "bytes": 140140
+      },
+      "rights": {
+        "terms_url": "https://www.apple.com/legal/internet-services/terms/site.html",
+        "assessment": "automation_and_redistribution_not_approved",
+        "use_boundary": "Local evaluation only; do not schedule automated collection or redistribute the page.",
+        "basis": "Apple's website terms restrict copying/distribution, limit downloadable information to personal non-commercial informational use, and prohibit page-scrape/robot methods. This one manually initiated retrieval demonstrates technical reachability only, not permission."
+      },
+      "notes": "Release reports $102.5 billion quarterly revenue and $1.85 diluted EPS, with the 13% EPS comparison explicitly described as adjusted; do not label it GAAP growth without the release's reconciliation context."
+    },
+    {
+      "id": "sec-aapl-submissions-api",
+      "publisher": "U.S. Securities and Exchange Commission",
+      "title": "EDGAR submissions JSON for Apple CIK 0000320193",
+      "source_type": "sec_submissions_api",
+      "url": "https://data.sec.gov/submissions/CIK0000320193.json",
+      "period": null,
+      "published_at": null,
+      "published_at_precision": null,
+      "published_at_basis": "Dynamic API resource; no single publication timestamp assigned.",
+      "access": {
+        "observed_at": "2026-09-23T12:17:58Z",
+        "http_status": 403,
+        "result": "blocked_undeclared_automated_tool",
+        "content_type": "text/html"
+      },
+      "artifact": null,
+      "rights": {
+        "terms_url": "https://www.sec.gov/privacy",
+        "developer_guidance_url": "https://www.sec.gov/about/developer-resources",
+        "assessment": "operational_and_rights_review_required",
+        "use_boundary": "Do not retry in an automated collector until an honest organization-specific User-Agent/contact and rate policy are approved and configured.",
+        "basis": "The 403 response required company-specific User-Agent information and directed automated users to SEC developer/Fair Access and privacy guidance. Fair Access compliance is not a reuse license."
+      },
+      "notes": "No browser impersonation or alternate route was attempted. API availability from this environment remains unconfirmed under a compliant declared identity."
+    },
+    {
+      "id": "sec-aapl-companyfacts-api",
+      "publisher": "U.S. Securities and Exchange Commission",
+      "title": "EDGAR company facts JSON for Apple CIK 0000320193",
+      "source_type": "sec_companyfacts_api",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json",
+      "period": null,
+      "published_at": null,
+      "published_at_precision": null,
+      "published_at_basis": "Dynamic API resource; no single publication timestamp assigned.",
+      "access": {
+        "observed_at": "2026-09-23T12:17:58Z",
+        "http_status": 403,
+        "result": "blocked_undeclared_automated_tool",
+        "content_type": "text/html"
+      },
+      "artifact": null,
+      "rights": {
+        "terms_url": "https://www.sec.gov/privacy",
+        "developer_guidance_url": "https://www.sec.gov/about/developer-resources",
+        "assessment": "operational_and_rights_review_required",
+        "use_boundary": "Do not retry in an automated collector until an honest organization-specific User-Agent/contact and rate policy are approved and configured.",
+        "basis": "The 403 response required declared automated traffic. No authorization or redistribution conclusion follows from endpoint existence."
+      },
+      "notes": "No response JSON was obtained and no raw file or hash is claimed."
+    },
+    {
+      "id": "msft-general-terms",
+      "publisher": "Microsoft Corporation",
+      "title": "Microsoft Terms of Use",
+      "source_type": "website_terms_html",
+      "url": "https://www.microsoft.com/en-us/legal/terms-of-use",
+      "period": null,
+      "published_at": "2022-02-07",
+      "published_at_precision": "date",
+      "published_at_basis": "Page header says Last Updated: February 7, 2022.",
+      "access": {
+        "observed_at": "2026-09-23T12:17:58Z",
+        "http_status": 200,
+        "result": "accessible",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "artifact": {
+        "path": "data/raw/microsoft-terms-of-use.html",
+        "collected_at": "2026-09-23T12:19:11Z",
+        "sha256": "3ae8c2ddbc1075c61a66bac96213c54618f97ea33b3f9e18e746d41687bef9c9",
+        "bytes": 158483
+      },
+      "rights": {
+        "assessment": "evidence_not_authorization",
+        "use_boundary": "Terms snapshot for local rights review only.",
+        "basis": "The snapshot records general restrictions but is not legal advice or affirmative permission."
+      },
+      "notes": null
+    },
+    {
+      "id": "apple-website-terms",
+      "publisher": "Apple Inc.",
+      "title": "Legal - Website Terms of Use",
+      "source_type": "website_terms_html",
+      "url": "https://www.apple.com/legal/internet-services/terms/site.html",
+      "period": null,
+      "published_at": null,
+      "published_at_precision": null,
+      "published_at_basis": "No reliable last-updated date was identified; footer copyright year is not treated as publication time.",
+      "access": {
+        "observed_at": "2026-09-23T12:17:58Z",
+        "http_status": 200,
+        "result": "accessible",
+        "content_type": "text/html; charset=utf-8"
+      },
+      "artifact": {
+        "path": "data/raw/apple-website-terms.html",
+        "collected_at": "2026-09-23T12:19:12Z",
+        "sha256": "dd93377a0b9239d23e43ab8beb5e763d96f001810754a913b8197a43b6686451",
+        "bytes": 125074
+      },
+      "rights": {
+        "assessment": "evidence_not_authorization",
+        "use_boundary": "Terms snapshot for local rights review only.",
+        "basis": "The snapshot records restrictions and does not establish a license."
+      },
+      "notes": null
+    },
+    {
+      "id": "nvda-fy2025-q4-press-release",
+      "publisher": "NVIDIA Corporation",
+      "company_id": "NVDA",
+      "title": "NVIDIA announces financial results for fourth quarter and fiscal 2025",
+      "source_type": "issuer_earnings_release_html",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2025",
+      "final_url": null,
+      "period": "quarter and fiscal year ended 2025-01-26",
+      "published_at": "2025-02-26",
+      "published_at_precision": "date",
+      "published_at_basis": "Dateline and page date in the official NVIDIA newsroom release: February 26, 2025.",
+      "access": {
+        "observed_at": "2026-09-29T20:19:46Z",
+        "http_status": 200,
+        "result": "accessible",
+        "content_type": "text/html"
+      },
+      "artifact": {
+        "path": "data/raw/nvidia-fy2025-q4-press-release.html",
+        "collected_at": "2026-09-29T20:19:46Z",
+        "sha256": "121af64027c06714de561b9888ceebd604856d214248a3ad187f5715a9de863d",
+        "bytes": 400279
+      },
+      "rights": {
+        "terms_url": "https://www.nvidia.com/en-us/about-nvidia/legal-info/",
+        "assessment": "review_required",
+        "use_boundary": "Local evaluation only; redistribution permission has not been established.",
+        "basis": "Official newsroom page was publicly reachable, but no source-specific reuse grant was established."
+      },
+      "notes": "Adds a large AI semiconductor issuer release for cross-company retrieval and citation testing."
+    },
+    {
+      "id": "nvda-fy2024-q4-press-release",
+      "publisher": "NVIDIA Corporation",
+      "company_id": "NVDA",
+      "title": "NVIDIA announces financial results for fourth quarter and fiscal 2024",
+      "source_type": "issuer_earnings_release_html",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2024",
+      "final_url": null,
+      "period": "quarter and fiscal year ended 2024-01-28",
+      "published_at": "2024-02-21",
+      "published_at_precision": "date",
+      "published_at_basis": "Dateline and page date in the official NVIDIA newsroom release: February 21, 2024.",
+      "access": {
+        "observed_at": "2026-09-29T20:19:46Z",
+        "http_status": 200,
+        "result": "accessible",
+        "content_type": "text/html"
+      },
+      "artifact": {
+        "path": "data/raw/nvidia-fy2024-q4-press-release.html",
+        "collected_at": "2026-09-29T20:19:46Z",
+        "sha256": "3cc5e99db8f4ad94ad915b5c9d8f3d372b5b800bf3c4b9f81a929b2713a5cd04",
+        "bytes": 447640
+      },
+      "rights": {
+        "terms_url": "https://www.nvidia.com/en-us/about-nvidia/legal-info/",
+        "assessment": "review_required",
+        "use_boundary": "Local evaluation only; redistribution permission has not been established.",
+        "basis": "Official newsroom page was publicly reachable, but no source-specific reuse grant was established."
+      },
+      "notes": "Historical NVIDIA counterpart for same-company cross-time testing."
+    },
+    {
+      "id": "crm-fy2025-q4-press-release",
+      "publisher": "Salesforce, Inc.",
+      "company_id": "CRM",
+      "title": "Salesforce announces fourth quarter and fiscal year 2025 results",
+      "source_type": "issuer_earnings_release_html",
+      "url": "https://www.salesforce.com/news/press-releases/2025/02/26/fy25-q4-earnings/",
+      "final_url": null,
+      "period": "quarter and fiscal year ended 2025-01-31",
+      "published_at": "2025-02-26",
+      "published_at_precision": "date",
+      "published_at_basis": "Publication date displayed in the official Salesforce newsroom URL and release page: February 26, 2025.",
+      "access": {
+        "observed_at": "2026-09-29T20:19:47Z",
+        "http_status": 200,
+        "result": "accessible",
+        "content_type": "text/html"
+      },
+      "artifact": {
+        "path": "data/raw/salesforce-fy2025-q4-press-release.html",
+        "collected_at": "2026-09-29T20:19:47Z",
+        "sha256": "3047fcba234dc2ff1a7791429c397f2253d2564f26a27104dbfc7aa7edef78b7",
+        "bytes": 165299
+      },
+      "rights": {
+        "terms_url": "https://www.salesforce.com/company/legal/agreements/",
+        "assessment": "review_required",
+        "use_boundary": "Local evaluation only; redistribution permission has not been established.",
+        "basis": "Official newsroom page was publicly reachable, but no source-specific reuse grant was established."
+      },
+      "notes": "Adds a SaaS/software issuer release with subscription, margin, and cash-flow language."
+    },
+    {
+      "id": "crm-fy2024-q4-press-release",
+      "publisher": "Salesforce, Inc.",
+      "company_id": "CRM",
+      "title": "Salesforce announces fourth quarter and fiscal year 2024 results",
+      "source_type": "issuer_earnings_release_html",
+      "url": "https://www.salesforce.com/news/press-releases/2024/02/28/fy24-q4-earnings/",
+      "final_url": null,
+      "period": "quarter and fiscal year ended 2024-01-31",
+      "published_at": "2024-02-28",
+      "published_at_precision": "date",
+      "published_at_basis": "Publication date displayed in the official Salesforce newsroom URL and release page: February 28, 2024.",
+      "access": {
+        "observed_at": "2026-09-29T20:19:48Z",
+        "http_status": 200,
+        "result": "accessible",
+        "content_type": "text/html"
+      },
+      "artifact": {
+        "path": "data/raw/salesforce-fy2024-q4-press-release.html",
+        "collected_at": "2026-09-29T20:19:48Z",
+        "sha256": "bafd8d4db6f8b9134fa61a2943a975379adabeeed5cbf758b71598328d08bcd3",
+        "bytes": 169088
+      },
+      "rights": {
+        "terms_url": "https://www.salesforce.com/company/legal/agreements/",
+        "assessment": "review_required",
+        "use_boundary": "Local evaluation only; redistribution permission has not been established.",
+        "basis": "Official newsroom page was publicly reachable, but no source-specific reuse grant was established."
+      },
+      "notes": "Historical Salesforce counterpart for cross-time and metric-continuity testing."
+    },
+    {
+      "id": "ibm-2024-q4-results",
+      "publisher": "International Business Machines Corporation",
+      "company_id": "IBM",
+      "title": "IBM releases fourth-quarter results for 2024",
+      "source_type": "issuer_earnings_release_html",
+      "url": "https://newsroom.ibm.com/2025-01-29-IBM-RELEASES-FOURTH-QUARTER-RESULTS",
+      "final_url": null,
+      "period": "quarter and year ended 2024-12-31",
+      "published_at": "2025-01-29",
+      "published_at_precision": "date",
+      "published_at_basis": "Date in the official IBM newsroom release URL and page: January 29, 2025.",
+      "access": {
+        "observed_at": "2026-09-29T20:19:48Z",
+        "http_status": 200,
+        "result": "accessible",
+        "content_type": "text/html"
+      },
+      "artifact": {
+        "path": "data/raw/ibm-2024-q4-results.html",
+        "collected_at": "2026-09-29T20:19:48Z",
+        "sha256": "4709fdd470707944eebb7229d18bc2b9947499be9fc95b52db7f3d14c395a333",
+        "bytes": 953908
+      },
+      "rights": {
+        "terms_url": "https://www.ibm.com/legal",
+        "assessment": "review_required",
+        "use_boundary": "Local evaluation only; redistribution permission has not been established.",
+        "basis": "Official newsroom page was publicly reachable, but no source-specific reuse grant was established."
+      },
+      "notes": "Adds a diversified enterprise technology issuer release for retrieval breadth testing."
+    },
+    {
+      "id": "ibm-2025-q4-results",
+      "publisher": "International Business Machines Corporation",
+      "company_id": "IBM",
+      "title": "IBM releases fourth-quarter results for 2025",
+      "source_type": "issuer_earnings_release_html",
+      "url": "https://newsroom.ibm.com/2026-01-28-IBM-RELEASES-FOURTH-QUARTER-RESULTS",
+      "final_url": null,
+      "period": "quarter and year ended 2025-12-31",
+      "published_at": "2026-01-28",
+      "published_at_precision": "date",
+      "published_at_basis": "Date in the official IBM newsroom release URL and page: January 28, 2026.",
+      "access": {
+        "observed_at": "2026-09-29T20:19:49Z",
+        "http_status": 200,
+        "result": "accessible",
+        "content_type": "text/html"
+      },
+      "artifact": {
+        "path": "data/raw/ibm-2025-q4-results.html",
+        "collected_at": "2026-09-29T20:19:49Z",
+        "sha256": "c935aeb23e64d2b96d96d830fab3d0b33f4f6da1c22f64b1e9b0b95a82ae50a3",
+        "bytes": 955622
+      },
+      "rights": {
+        "terms_url": "https://www.ibm.com/legal",
+        "assessment": "review_required",
+        "use_boundary": "Local evaluation only; redistribution permission has not been established.",
+        "basis": "Official newsroom page was publicly reachable, but no source-specific reuse grant was established."
+      },
+      "notes": "IBM cross-time counterpart for later-version retrieval testing."
+    },
+    {
+      "id": "crm-fy2026-q4-press-release",
+      "publisher": "Salesforce, Inc.",
+      "company_id": "CRM",
+      "title": "Salesforce Delivers Record Fourth Quarter Fiscal 2026 Results",
+      "source_type": "issuer_earnings_release_html",
+      "url": "https://www.salesforce.com/news/press-releases/2026/02/25/fy26-q4-earnings/",
+      "final_url": null,
+      "period": "quarter and fiscal year ended 2026-01-31",
+      "published_at": "2026-02-25",
+      "published_at_precision": "date",
+      "published_at_basis": "Official newsroom publication date and release dateline: February 25, 2026.",
+      "access": {
+        "observed_at": "2026-10-01T05:30:24Z",
+        "http_status": 200,
+        "result": "accessible",
+        "content_type": "text/html"
+      },
+      "artifact": {
+        "path": "data/raw/salesforce-fy2026-q4-press-release.html",
+        "collected_at": "2026-10-01T05:30:24Z",
+        "sha256": "c34a735740e6177ce2e1de9363ef4b2263ef0b54ad8b64ebfff713b582a54dfe",
+        "bytes": 181396
+      },
+      "rights": {
+        "terms_url": "https://www.salesforce.com/company/legal/sfdc-website-terms-of-service/",
+        "assessment": "review_required",
+        "use_boundary": "Local evaluation only; redistribution permission has not been established.",
+        "basis": "Public official newsroom access does not establish a source-specific reuse or commercial redistribution grant."
+      },
+      "notes": "Adds the latest disclosed fiscal year as a complete raw source; no hand-selected rows or numeric facts are supplied."
+    }
+  ]
+}

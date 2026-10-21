@@ -1,0 +1,82 @@
+/* Evidence uses report-content.css for its visual system. These rules only bridge the
+   data/test selectors to the shared shell and provide the four-step narrow layout. */
+.report-evidence-browser {
+  position: relative;
+  display: grid;
+  grid-template-rows: auto auto minmax(0, 1fr);
+  min-width: 0;
+  min-height: 0;
+  height: 100%;
+  color: var(--ink);
+  background: var(--surface);
+  font-size: 14px;
+}
+
+.report-evidence-browser > .selected-claim { margin: 14px 20px 10px; }
+.evidence-browser-mobile-nav { display: none; }
+.evidence-browser-grid { min-height: 0; }
+.evidence-browser-column-body { min-width: 0; }
+.evidence-browser-kind,
+.evidence-browser-small-label { margin: 0 0 10px; color: var(--muted); font-size: 12px; font-weight: 700; }
+.evidence-browser-operands,
+.evidence-browser-path { margin: 12px 0; padding-left: 20px; line-height: 1.65; }
+.evidence-browser-source-choices { margin-top: 8px; }
+.evidence-browser-field.evidence-browser-warning,
+.evidence-browser-warning,
+.evidence-browser-unavailable { margin-top: 10px; padding: 10px 12px; border: 1px solid color-mix(in srgb, var(--amber), transparent 45%); border-radius: 6px; background: var(--amber-soft); line-height: 1.55; }
+.evidence-browser-slice-note { margin: 0 0 12px; color: var(--muted); line-height: 1.55; }
+.evidence-browser-pdf,
+.evidence-browser-context-line { margin: 8px 0; line-height: 1.55; }
+.evidence-browser-pdf { font-weight: 700; }
+.evidence-browser-table-wrap { margin: 12px 0; overflow: auto; }
+.evidence-browser-table { width: max-content; min-width: 100%; }
+.evidence-browser-table td { max-width: 240px; overflow-wrap: anywhere; }
+.evidence-browser-target-cell { outline: 2px solid var(--amber); outline-offset: -2px; }
+.evidence-browser-context,
+.evidence-browser-quote { white-space: pre-wrap; overflow-wrap: anywhere; }
+.evidence-browser-context { margin: 12px 0; padding: 12px; background: var(--soft); line-height: 1.65; }
+.evidence-browser-context p:last-child { margin-bottom: 0; }
+.evidence-browser-links a { margin: 0; }
+.evidence-browser-technical { margin: 10px 0; color: var(--muted); }
+.evidence-browser-empty { margin: 0; color: var(--muted); line-height: 1.6; }
+.evidence-browser-source-preview { margin-top: 0; }
+.source-viewer [data-close-source-viewer] { min-height: 36px; padding: 7px 12px; border: 1px solid var(--line); border-radius: 6px; color: var(--ink); background: var(--surface); cursor: pointer; }
+
+@media (max-width: 1199px) {
+  .report-evidence-browser { grid-template-rows: auto auto auto minmax(0, 1fr); }
+  .evidence-browser-mobile-nav {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(118px, 1fr));
+    gap: 6px;
+    margin: 0 16px 12px;
+    overflow-x: auto;
+  }
+  .evidence-browser-mobile-nav button {
+    min-height: 44px;
+    padding: 7px 9px;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    color: var(--ink);
+    background: var(--surface);
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  .evidence-browser-mobile-nav button[aria-current="step"] { border-color: var(--blue); color: var(--blue); background: var(--blue-soft); font-weight: 800; }
+  .evidence-browser-grid { display: block; overflow: hidden; }
+  .evidence-browser-column { display: none; height: 100%; border-right: 0; }
+  .report-evidence-browser[data-mobile-step="1"] .evidence-browser-step-1,
+  .report-evidence-browser[data-mobile-step="2"] .evidence-browser-step-2,
+  .report-evidence-browser[data-mobile-step="3"] .evidence-browser-step-3,
+  .report-evidence-browser[data-mobile-step="4"] .evidence-browser-step-4 { display: block; }
+}
+
+@media (max-width: 560px) {
+  .report-evidence-browser > .selected-claim { margin: 12px 16px; }
+  .evidence-browser-mobile-nav { grid-template-columns: repeat(4, minmax(108px, 1fr)); }
+  .source-document { padding: 16px; }
+}
+
+@media (forced-colors: active) {
+  .evidence-menu-item.active,
+  .evidence-browser-target-cell { outline: 2px solid Highlight; }
+}

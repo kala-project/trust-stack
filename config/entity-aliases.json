@@ -1,0 +1,42 @@
+{
+  "MSFT": {
+    "name": "Microsoft Corporation",
+    "aliases": ["Microsoft", "微软"]
+  },
+  "AAPL": {
+    "name": "Apple Inc.",
+    "aliases": ["Apple", "苹果"]
+  },
+  "CRM": {
+    "name": "Salesforce, Inc.",
+    "aliases": ["Salesforce"]
+  },
+  "IBM": {
+    "name": "International Business Machines Corporation",
+    "aliases": ["IBM", "International Business Machines"]
+  },
+  "NVDA": {
+    "name": "NVIDIA Corporation",
+    "aliases": ["NVIDIA", "Nvidia", "英伟达"]
+  },
+  "AMZN": {
+    "name": "Amazon.com, Inc.",
+    "aliases": ["Amazon", "Amazon.com", "亚马逊"]
+  },
+  "GOOG": {
+    "name": "Alphabet Inc.",
+    "aliases": ["Alphabet", "GOOGL", "Google", "Google Inc.", "谷歌"]
+  },
+  "META": {
+    "name": "Meta Platforms, Inc.",
+    "aliases": ["Meta", "Meta Platforms", "Facebook", "Facebook, Inc.", "FB", "脸书"]
+  },
+  "TSLA": {
+    "name": "Tesla, Inc.",
+    "aliases": ["Tesla", "Tesla Motors", "Tesla Motors, Inc.", "特斯拉"]
+  },
+  "NFLX": {
+    "name": "Netflix, Inc.",
+    "aliases": ["Netflix", "奈飞", "网飞"]
+  }
+}

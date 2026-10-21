@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "catalog_path": "public-sources-bigtech-annual.json",
+  "min_text_chars": 10000,
+  "feed_cache_seconds": 3600,
+  "cooldown_seconds": 900,
+  "host_interval_seconds": 3,
+  "companies": {
+    "AAPL": {
+      "feed_url": "https://investor.apple.com/feed/FinancialReport.svc/GetFinancialReportList?LanguageId=1&pageSize=-1&pageNumber=0&year=-1&reportTypes=",
+      "official_prefixes": [
+        "https://s2.q4cdn.com/470004039/"
+      ]
+    },
+    "MSFT": {
+      "official_prefixes": [
+        "https://www.microsoft.com/investor/reports/"
+      ]
+    },
+    "GOOG": {
+      "feed_url": "https://abc.xyz/feed/FinancialReport.svc/GetFinancialReportList?LanguageId=1&pageSize=-1&pageNumber=0&year=-1&reportTypes=",
+      "official_prefixes": [
+        "https://s206.q4cdn.com/479360582/"
+      ]
+    },
+    "AMZN": {
+      "feed_url": "https://ir.aboutamazon.com/feed/FinancialReport.svc/GetFinancialReportList?LanguageId=1&pageSize=-1&pageNumber=0&year=-1&reportTypes=",
+      "official_prefixes": [
+        "https://s2.q4cdn.com/299287126/"
+      ]
+    },
+    "META": {
+      "feed_url": "https://investor.atmeta.com/feed/FinancialReport.svc/GetFinancialReportList?LanguageId=1&pageSize=-1&pageNumber=0&year=-1&reportTypes=",
+      "official_prefixes": [
+        "https://s21.q4cdn.com/399680738/",
+        "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001326801/"
+      ]
+    },
+    "NVDA": {
+      "feed_url": "https://investor.nvidia.com/feed/FinancialReport.svc/GetFinancialReportList?LanguageId=1&pageSize=-1&pageNumber=0&year=-1&reportTypes=",
+      "official_prefixes": [
+        "https://s201.q4cdn.com/141608511/"
+      ]
+    },
+    "TSLA": {
+      "official_prefixes": [
+        "https://ir.tesla.com/_flysystem/s3/sec/"
+      ]
+    },
+    "NFLX": {
+      "feed_url": "https://ir.netflix.net/feed/FinancialReport.svc/GetFinancialReportList?LanguageId=1&pageSize=-1&pageNumber=0&year=-1&reportTypes=",
+      "official_prefixes": [
+        "https://s22.q4cdn.com/959853165/"
+      ]
+    }
+  }
+}

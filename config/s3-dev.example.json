@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "backend": "s3",
+  "deployment": "trust-stack-development",
+  "bucket": "trust-stack-dev",
+  "endpoint_url": "http://127.0.0.1:19091",
+  "region_name": "us-east-1",
+  "local_emulator": true,
+  "credentials": {"test_credentials": true}
+}

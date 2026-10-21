@@ -1,0 +1,47 @@
+/* The report reader's visual palette is the reference, not a file to mutate.
+   Shared visual vocabulary; report pagination/geometry stays with the reader. */
+:root {
+  color-scheme: light;
+  --canvas: #f4f1ea; --sidebar-bg: #ede7dc; --surface: #fff; --paper: #fffdf8;
+  --soft: #f5f0e8; --ink: #101827; --muted: #5e697a; --line: #ded7ca;
+  --blue: #1f5fbf; --blue-soft: #edf4ff; --amber: #975a00; --amber-soft: #fff7e6;
+  --danger: #ad303d; --focus-ring: #2f6fdd; --on-accent: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
+  font-size: 14px; line-height: 1.6; color: var(--ink); background: var(--canvas);
+  font-synthesis: none; text-rendering: optimizeLegibility;
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --canvas: #101419; --sidebar-bg: #151b22; --surface: #202733; --paper: #1b2027;
+  --soft: #171d25; --ink: #eef2f7; --muted: #b6c0cf; --line: #364150;
+  --blue: #86b7ff; --blue-soft: #173153; --amber: #f6c66c; --amber-soft: #3d2b14;
+  --danger: #ffabb0; --focus-ring: #86b7ff; --on-accent: #101827;
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+button, input, textarea, select { font: inherit; }
+button, select, input { min-height: 40px; }
+button { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding: 8px 14px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--ink); cursor: pointer; }
+button:hover:not(:disabled) { background: var(--soft); }
+button:disabled { cursor: not-allowed; opacity: .6; }
+input, textarea, select { color: var(--ink); background: var(--paper); border: 1px solid var(--line); border-radius: 6px; padding: 8px 12px; max-width: 100%; }
+textarea { resize: vertical; line-height: 1.8; }
+input[type="radio"], input[type="checkbox"] { min-height: auto; accent-color: var(--blue); }
+button, input, textarea, a, summary, select { -webkit-tap-highlight-color: transparent; }
+:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 3px; }
+a { color: var(--blue); text-underline-offset: 3px; }
+summary { cursor: pointer; padding: 10px 0; }
+h1, h2, h3, p { overflow-wrap: anywhere; }
+h1 { margin: 0 0 16px; font-size: 28px; line-height: 1.4; font-weight: 650; letter-spacing: -.025em; }
+h2 { font-size: 20px; line-height: 1.6; font-weight: 600; }
+h3 { font-size: 16px; }
+code { font-family: ui-monospace, "Cascadia Code", monospace; overflow-wrap: anywhere; }
+time { font-variant-numeric: tabular-nums; white-space: nowrap; }
+[data-tone="warning"] { color: var(--amber); }
+[data-tone="bad"] { color: var(--danger); }
+.icon-button { border: 0; width: 40px; padding: 8px; background: transparent; flex: 0 0 auto; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+.skip-link { position: fixed; left: 12px; top: -100px; z-index: 100; background: var(--paper); padding: 12px; }
+.skip-link:focus { top: 12px; }
+@media (pointer: coarse) { button, select, input:not([type="radio"]):not([type="checkbox"]) { min-height: 44px; } .icon-button { width: 44px; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; animation: none !important; } }

@@ -1,0 +1,50 @@
+# Development contract tests only; not production IAM or durable-storage certification.
+# Adobe S3Mock 5.2.0, linux/amd64 digest; release and image pushed 2026-08-22.
+# Invoke explicitly with a project name; never mount credentials, the repository, or Docker socket.
+services:
+  raw-s3:
+    image: adobe/s3mock@sha256:4897c37314a72ae13509513905a102e7642de3854f52fcfc2b1c5e59bab41b7e
+    platform: linux/amd64
+    user: "1000:1000"
+    privileged: false
+    read_only: true
+    init: true
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    ports:
+      - "127.0.0.1:19091:9090"
+    environment:
+      COM_ADOBE_TESTING_S3MOCK_STORE_ROOT: /data
+      COM_ADOBE_TESTING_S3MOCK_STORE_RETAIN_FILES_ON_EXIT: "true"
+      COM_ADOBE_TESTING_S3MOCK_STORE_INITIAL_BUCKETS: trust-stack-dev
+      BPL_JVM_THREAD_COUNT: "32"
+      BPL_JVM_HEAD_ROOM: "15"
+    volumes:
+      - type: bind
+        source: ../var/s3-development/objects
+        target: /data
+        bind:
+          create_host_path: false
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,nodev,size=67108864,mode=1777
+    mem_limit: 768m
+    cpus: 1.0
+    pids_limit: 128
+    restart: "no"
+    stop_grace_period: 30s
+    logging:
+      driver: json-file
+      options:
+        max-size: 5m
+        max-file: "2"
+    networks:
+      - storage-only
+networks:
+  storage-only:
+    # Docker's internal network suppressed loopback publishing on this engine.
+    # Dedicated bridge, no peer communication; outbound traffic is NOT blocked.
+    driver: bridge
+    driver_opts:
+      com.docker.network.bridge.enable_icc: "false"

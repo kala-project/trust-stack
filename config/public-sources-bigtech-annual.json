@@ -1,0 +1,2127 @@
+{
+  "schema_version": "source-archive-config/1",
+  "scope": {
+    "companies": [
+      "AAPL",
+      "MSFT",
+      "GOOG",
+      "AMZN",
+      "META",
+      "NVDA",
+      "TSLA",
+      "NFLX"
+    ],
+    "fiscal_year_start": 2006,
+    "fiscal_year_end": 2025,
+    "note": "Downloaded subset only; missing years remain explicit in coverage matrix."
+  },
+  "sources": [
+    {
+      "company_id": "AAPL",
+      "fiscal_year": 2006,
+      "title": "AAPL FY2006 Annual Report (public archive copy)",
+      "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_AAPL_2006.pdf",
+      "discovery_label": "/HostedData/AnnualReportArchive/a/NASDAQ_AAPL_2006.pdf",
+      "discovery_file": "indexes/AAPL-mirror-index.raw",
+      "discovery_url": "https://www.annualreports.com/Company/apple-inc",
+      "source_class": "third_party_archive_copy",
+      "provider": "AnnualReports.com",
+      "rights": {
+        "note": "Publicly accessible archive copy, not issuer-hosted acquisition; accuracy and redistribution rights not approved."
+      },
+      "source_id": "bigtech-aapl-fy2006-mirror",
+      "media_types": [
+        "application/pdf"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "report_period_evidence": "For the fiscal year ended September 30, 2006 or \" TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANG"
+    },
+    {
+      "company_id": "AAPL",
+      "fiscal_year": 2008,
+      "title": "AAPL FY2008 Annual Report (public archive copy)",
+      "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_AAPL_2008.pdf",
+      "discovery_label": "/HostedData/AnnualReportArchive/a/NASDAQ_AAPL_2008.pdf",
+      "discovery_file": "indexes/AAPL-mirror-index.raw",
+      "discovery_url": "https://www.annualreports.com/Company/apple-inc",
+      "source_class": "third_party_archive_copy",
+      "provider": "AnnualReports.com",
+      "rights": {
+        "note": "Publicly accessible archive copy, not issuer-hosted acquisition; accuracy and redistribution rights not approved."
+      },
+      "source_id": "bigtech-aapl-fy2008-mirror",
+      "media_types": [
+        "application/pdf"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "report_period_evidence": "For the fiscal year ended September 27, 2008 or \u0003 TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANG"
+    },
+    {
+      "company_id": "AAPL",
+      "fiscal_year": 2009,
+      "title": "AAPL FY2009 Annual Report (public archive copy)",
+      "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_AAPL_2009.pdf",
+      "discovery_label": "/HostedData/AnnualReportArchive/a/NASDAQ_AAPL_2009.pdf",
+      "discovery_file": "indexes/AAPL-mirror-index.raw",
+      "discovery_url": "https://www.annualreports.com/Company/apple-inc",
+      "source_class": "third_party_archive_copy",
+      "provider": "AnnualReports.com",
+      "rights": {
+        "note": "Publicly accessible archive copy, not issuer-hosted acquisition; accuracy and redistribution rights not approved."
+      },
+      "source_id": "bigtech-aapl-fy2009-mirror",
+      "media_types": [
+        "application/pdf"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "report_period_evidence": "For the fiscal year ended September 26, 2009 Or � TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANG"
+    },
+    {
+      "company_id": "AAPL",
+      "fiscal_year": 2010,
+      "title": "AAPL FY2010 Annual Report (public archive copy)",
+      "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_AAPL_2010.pdf",
+      "discovery_label": "/HostedData/AnnualReportArchive/a/NASDAQ_AAPL_2010.pdf",
+      "discovery_file": "indexes/AAPL-mirror-index.raw",
+      "discovery_url": "https://www.annualreports.com/Company/apple-inc",
+      "source_class": "third_party_archive_copy",
+      "provider": "AnnualReports.com",
+      "rights": {
+        "note": "Publicly accessible archive copy, not issuer-hosted acquisition; accuracy and redistribution rights not approved."
+      },
+      "source_id": "bigtech-aapl-fy2010-mirror",
+      "media_types": [
+        "application/pdf"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "report_period_evidence": "For the fiscal year ended September 25, 2010 or \u0003 TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANG"
+    },
+    {
+      "company_id": "AAPL",
+      "fiscal_year": 2011,
+      "title": "AAPL FY2011 Annual Report (public archive copy)",
+      "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_AAPL_2011.pdf",
+      "discovery_label": "/HostedData/AnnualReportArchive/a/NASDAQ_AAPL_2011.pdf",
+      "discovery_file": "indexes/AAPL-mirror-index.raw",
+      "discovery_url": "https://www.annualreports.com/Company/apple-inc",
+      "source_class": "third_party_archive_copy",
+      "provider": "AnnualReports.com",
+      "rights": {
+        "note": "Publicly accessible archive copy, not issuer-hosted acquisition; accuracy and redistribution rights not approved."
+      },
+      "source_id": "bigtech-aapl-fy2011-mirror",
+      "media_types": [
+        "application/pdf"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "report_period_evidence": "For the fiscal year ended September 24, 2011 Or ‘ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANG"
+    },
+    {
+      "company_id": "AAPL",
+      "fiscal_year": 2012,
+      "title": "AAPL FY2012 Annual Report (public archive copy)",
+      "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_AAPL_2012.pdf",
+      "discovery_label": "/HostedData/AnnualReportArchive/a/NASDAQ_AAPL_2012.pdf",
+      "discovery_file": "indexes/AAPL-mirror-index.raw",
+      "discovery_url": "https://www.annualreports.com/Company/apple-inc",
+      "source_class": "third_party_archive_copy",
+      "provider": "AnnualReports.com",
+      "rights": {
+        "note": "Publicly accessible archive copy, not issuer-hosted acquisition; accuracy and redistribution rights not approved."
+      },
+      "source_id": "bigtech-aapl-fy2012-mirror",
+      "media_types": [
+        "application/pdf"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "report_period_evidence": "For the fiscal year ended September 29, 2012 or ‘ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANG"
+    },
+    {
+      "company_id": "AAPL",
+      "fiscal_year": 2013,
+      "title": "AAPL FY2013 Annual Report (public archive copy)",
+      "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_AAPL_2013.pdf",
+      "discovery_label": "/HostedData/AnnualReportArchive/a/NASDAQ_AAPL_2013.pdf",
+      "discovery_file": "indexes/AAPL-mirror-index.raw",
+      "discovery_url": "https://www.annualreports.com/Company/apple-inc",
+      "source_class": "third_party_archive_copy",
+      "provider": "AnnualReports.com",
+      "rights": {
+        "note": "Publicly accessible archive copy, not issuer-hosted acquisition; accuracy and redistribution rights not approved."
+      },
+      "source_id": "bigtech-aapl-fy2013-mirror",
+      "media_types": [
+        "application/pdf"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "report_period_evidence": "For the fiscal year ended September 28, 2013 Or \u0003 TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANG"
+    },
+    {
+      "company_id": "AAPL",
+      "fiscal_year": 2014,
+      "title": "AAPL FY2014 Annual Report (public archive copy)",
+      "url": "https://www.annualreports.com/HostedData/AnnualReportArchive/a/NASDAQ_AAPL_2014.pdf",
+      "discovery_label": "/HostedData/AnnualReportArchive/a/NASDAQ_AAPL_2014.pdf",
+      "discovery_file": "indexes/AAPL-mirror-index.raw",
+      "discovery_url": "https://www.annualreports.com/Company/apple-inc",
+      "source_class": "third_party_archive_copy",
+      "provider": "AnnualReports.com",
+      "rights": {
+        "note": "Publicly accessible archive copy, not issuer-hosted acquisition; accuracy and redistribution rights not approved."
+      },
+      "source_id": "bigtech-aapl-fy2014-mirror",
+      "media_types": [
+        "application/pdf"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "report_period_evidence": "For the fiscal year ended September 27, 2014 or \u0003 TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANG"
+    },
+    {
+      "company_id": "AAPL",
+      "fiscal_year": 2015,
+      "title": "AAPL FY2015 Annual Report / Form 10-K",
+      "url": "https://s2.q4cdn.com/470004039/files/doc_financials/2015/annual/2015_Form_10-K_As-filed.pdf",
+      "discovery_url": "https://investor.apple.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/AAPL-feed.json",
+      "discovery_label": "2015 10-K",
+      "listing_year": 2015,
+      "source_id": "bigtech-aapl-fy2015-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended September 26, 2015 or ‘ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANG"
+    },
+    {
+      "company_id": "AAPL",
+      "fiscal_year": 2016,
+      "title": "AAPL FY2016 Annual Report / Form 10-K",
+      "url": "https://s2.q4cdn.com/470004039/files/doc_financials/2016/annual/10-K_2016_9.24.2016_-_as_filed.pdf",
+      "discovery_url": "https://investor.apple.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/AAPL-feed.json",
+      "discovery_label": "2016 10-K",
+      "listing_year": 2016,
+      "source_id": "bigtech-aapl-fy2016-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended September 24, 2016 or TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE "
+    },
+    {
+      "company_id": "AAPL",
+      "fiscal_year": 2017,
+      "title": "AAPL FY2017 Annual Report / Form 10-K",
+      "url": "https://s2.q4cdn.com/470004039/files/doc_financials/2017/10-K_2017_As-Filed.pdf",
+      "discovery_url": "https://investor.apple.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/AAPL-feed.json",
+      "discovery_label": "2017 10-K",
+      "listing_year": 2017,
+      "source_id": "bigtech-aapl-fy2017-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended September 30, 2017 or TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE "
+    },
+    {
+      "company_id": "AAPL",
+      "fiscal_year": 2018,
+      "title": "AAPL FY2018 Annual Report / Form 10-K",
+      "url": "https://s2.q4cdn.com/470004039/files/doc_financials/2018/q4/10-K-2018-(As-Filed).pdf",
+      "discovery_url": "https://investor.apple.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/AAPL-feed.json",
+      "discovery_label": "2018 10-K",
+      "listing_year": 2018,
+      "source_id": "bigtech-aapl-fy2018-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended September 29, 2018 or TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE "
+    },
+    {
+      "company_id": "AAPL",
+      "fiscal_year": 2019,
+      "title": "AAPL FY2019 Annual Report / Form 10-K",
+      "url": "https://s2.q4cdn.com/470004039/files/doc_financials/2019/ar/_10-K-2019-(As-Filed).pdf",
+      "discovery_url": "https://investor.apple.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/AAPL-feed.json",
+      "discovery_label": "2019 10-K",
+      "listing_year": 2019,
+      "source_id": "bigtech-aapl-fy2019-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended September 28, 2019 or TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE "
+    },
+    {
+      "company_id": "AAPL",
+      "fiscal_year": 2020,
+      "title": "AAPL FY2020 Annual Report / Form 10-K",
+      "url": "https://s2.q4cdn.com/470004039/files/doc_financials/2020/ar/_10-K-2020-(As-Filed).pdf",
+      "discovery_url": "https://investor.apple.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/AAPL-feed.json",
+      "discovery_label": "2020 10-K",
+      "listing_year": 2020,
+      "source_id": "bigtech-aapl-fy2020-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended September 26, 2020 or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANG"
+    },
+    {
+      "company_id": "AAPL",
+      "fiscal_year": 2021,
+      "title": "AAPL FY2021 Annual Report / Form 10-K",
+      "url": "https://s2.q4cdn.com/470004039/files/doc_financials/2021/q4/_10-K-2021-(As-Filed).pdf",
+      "discovery_url": "https://investor.apple.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/AAPL-feed.json",
+      "discovery_label": "2021 10-K",
+      "listing_year": 2021,
+      "source_id": "bigtech-aapl-fy2021-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended September 25, 2021 or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANG"
+    },
+    {
+      "company_id": "AAPL",
+      "fiscal_year": 2022,
+      "title": "AAPL FY2022 Annual Report / Form 10-K",
+      "url": "https://s2.q4cdn.com/470004039/files/doc_financials/2022/q4/_10-K-2022-(As-Filed).pdf",
+      "discovery_url": "https://investor.apple.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/AAPL-feed.json",
+      "discovery_label": "2022 10-K",
+      "listing_year": 2022,
+      "source_id": "bigtech-aapl-fy2022-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended September 24, 2022 or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANG"
+    },
+    {
+      "company_id": "AAPL",
+      "fiscal_year": 2023,
+      "title": "AAPL FY2023 Annual Report / Form 10-K",
+      "url": "https://s2.q4cdn.com/470004039/files/doc_earnings/2023/q4/filing/_10-K-Q4-2023-As-Filed.pdf",
+      "discovery_url": "https://investor.apple.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/AAPL-feed.json",
+      "discovery_label": "2023 10-K",
+      "listing_year": 2023,
+      "source_id": "bigtech-aapl-fy2023-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended September 30, 2023 or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANG"
+    },
+    {
+      "company_id": "AAPL",
+      "fiscal_year": 2024,
+      "title": "AAPL FY2024 Annual Report / Form 10-K",
+      "url": "https://s2.q4cdn.com/470004039/files/doc_earnings/2024/q4/filing/10-Q4-2024-As-Filed.pdf",
+      "discovery_url": "https://investor.apple.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/AAPL-feed.json",
+      "discovery_label": "2024 10-K",
+      "listing_year": 2024,
+      "source_id": "bigtech-aapl-fy2024-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended September 28, 2024 or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANG"
+    },
+    {
+      "company_id": "AAPL",
+      "fiscal_year": 2025,
+      "title": "AAPL FY2025 Annual Report / Form 10-K",
+      "url": "https://s2.q4cdn.com/470004039/files/doc_financials/2025/ar/_10-K-2025-As-Filed.pdf",
+      "discovery_url": "https://investor.apple.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/AAPL-feed.json",
+      "discovery_label": "2025 10-K",
+      "listing_year": 2025,
+      "source_id": "bigtech-aapl-fy2025-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended September 27, 2025 or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANG"
+    },
+    {
+      "company_id": "AMZN",
+      "fiscal_year": 2006,
+      "title": "AMZN FY2006 Annual Report / Form 10-K",
+      "url": "https://s2.q4cdn.com/299287126/files/doc_financials/annual/2006AnnualReport.pdf",
+      "discovery_url": "https://ir.aboutamazon.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/AMZN-feed.json",
+      "discovery_label": "2006 Annual Report",
+      "listing_year": 2007,
+      "source_id": "bigtech-amzn-fy2006-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2006 or ‘ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "AMZN",
+      "fiscal_year": 2007,
+      "title": "AMZN FY2007 Annual Report / Form 10-K",
+      "url": "https://s2.q4cdn.com/299287126/files/doc_financials/annual/2007AR.pdf",
+      "discovery_url": "https://ir.aboutamazon.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/AMZN-feed.json",
+      "discovery_label": "2007 Annual Report",
+      "listing_year": 2008,
+      "source_id": "bigtech-amzn-fy2007-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2007 or ‘ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "AMZN",
+      "fiscal_year": 2008,
+      "title": "AMZN FY2008 Annual Report / Form 10-K",
+      "url": "https://s2.q4cdn.com/299287126/files/doc_financials/annual/Amazon_Annual_Report_2008.pdf",
+      "discovery_url": "https://ir.aboutamazon.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/AMZN-feed.json",
+      "discovery_label": "2008 Annual Report",
+      "listing_year": 2009,
+      "source_id": "bigtech-amzn-fy2008-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2008 or ‘ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "AMZN",
+      "fiscal_year": 2009,
+      "title": "AMZN FY2009 Annual Report / Form 10-K",
+      "url": "https://s2.q4cdn.com/299287126/files/doc_financials/annual/AMZN_Annual-Report-2009-(final).pdf",
+      "discovery_url": "https://ir.aboutamazon.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/AMZN-feed.json",
+      "discovery_label": "2009 Annual Report",
+      "listing_year": 2010,
+      "source_id": "bigtech-amzn-fy2009-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2009 or ‘ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "AMZN",
+      "fiscal_year": 2010,
+      "title": "AMZN FY2010 Annual Report / Form 10-K",
+      "url": "https://s2.q4cdn.com/299287126/files/doc_financials/annual/117006_099_bmk_AR.pdf",
+      "discovery_url": "https://ir.aboutamazon.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/AMZN-feed.json",
+      "discovery_label": "2010 Annual Report",
+      "listing_year": 2011,
+      "source_id": "bigtech-amzn-fy2010-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2010 or ‘ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "AMZN",
+      "fiscal_year": 2011,
+      "title": "AMZN FY2011 Annual Report / Form 10-K",
+      "url": "https://s2.q4cdn.com/299287126/files/doc_financials/annual/269317_023_bmk.pdf",
+      "discovery_url": "https://ir.aboutamazon.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/AMZN-feed.json",
+      "discovery_label": "2011 Annual Report",
+      "listing_year": 2012,
+      "source_id": "bigtech-amzn-fy2011-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2011 or ‘ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "AMZN",
+      "fiscal_year": 2012,
+      "title": "AMZN FY2012 Annual Report / Form 10-K",
+      "url": "https://s2.q4cdn.com/299287126/files/doc_financials/annual/2012-Annual-Report.PDF",
+      "discovery_url": "https://ir.aboutamazon.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/AMZN-feed.json",
+      "discovery_label": "2012 Annual Report",
+      "listing_year": 2013,
+      "source_id": "bigtech-amzn-fy2012-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2012 or ‘ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "AMZN",
+      "fiscal_year": 2013,
+      "title": "AMZN FY2013 Annual Report / Form 10-K",
+      "url": "https://s2.q4cdn.com/299287126/files/doc_financials/annual/2013-Annual-Report.pdf",
+      "discovery_url": "https://ir.aboutamazon.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/AMZN-feed.json",
+      "discovery_label": "2013 Annual Report",
+      "listing_year": 2014,
+      "source_id": "bigtech-amzn-fy2013-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2013 or TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE A"
+    },
+    {
+      "company_id": "AMZN",
+      "fiscal_year": 2014,
+      "title": "AMZN FY2014 Annual Report / Form 10-K",
+      "url": "https://s2.q4cdn.com/299287126/files/doc_financials/annual/AMAZON-2014-Annual-Report.pdf",
+      "discovery_url": "https://ir.aboutamazon.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/AMZN-feed.json",
+      "discovery_label": "2014 Annual Report",
+      "listing_year": 2015,
+      "source_id": "bigtech-amzn-fy2014-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2014 or \u0003 TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "AMZN",
+      "fiscal_year": 2015,
+      "title": "AMZN FY2015 Annual Report / Form 10-K",
+      "url": "https://s2.q4cdn.com/299287126/files/doc_financials/annual/2015-Annual-Report.pdf",
+      "discovery_url": "https://ir.aboutamazon.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/AMZN-feed.json",
+      "discovery_label": "2015 Annual Report",
+      "listing_year": 2016,
+      "source_id": "bigtech-amzn-fy2015-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2015 or  TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANG"
+    },
+    {
+      "company_id": "AMZN",
+      "fiscal_year": 2016,
+      "title": "AMZN FY2016 Annual Report / Form 10-K",
+      "url": "https://s2.q4cdn.com/299287126/files/doc_financials/annual/2016-Annual-Report.pdf",
+      "discovery_url": "https://ir.aboutamazon.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/AMZN-feed.json",
+      "discovery_label": "2016 Annual Report",
+      "listing_year": 2017,
+      "source_id": "bigtech-amzn-fy2016-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2016 or \u0003 TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "AMZN",
+      "fiscal_year": 2017,
+      "title": "AMZN FY2017 Annual Report / Form 10-K",
+      "url": "https://s2.q4cdn.com/299287126/files/doc_financials/annual/Amazon_AR.PDF",
+      "discovery_url": "https://ir.aboutamazon.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/AMZN-feed.json",
+      "discovery_label": "2017 Annual Report",
+      "listing_year": 2018,
+      "source_id": "bigtech-amzn-fy2017-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2017 or TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE A"
+    },
+    {
+      "company_id": "AMZN",
+      "fiscal_year": 2018,
+      "title": "AMZN FY2018 Annual Report / Form 10-K",
+      "url": "https://s2.q4cdn.com/299287126/files/doc_financials/annual/2018-Annual-Report.pdf",
+      "discovery_url": "https://ir.aboutamazon.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/AMZN-feed.json",
+      "discovery_label": "2018 Annual Report",
+      "listing_year": 2019,
+      "source_id": "bigtech-amzn-fy2018-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2018 or ¨ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "AMZN",
+      "fiscal_year": 2021,
+      "title": "AMZN FY2021 Annual Report / Form 10-K",
+      "url": "https://s2.q4cdn.com/299287126/files/doc_financials/2022/ar/Amazon-2021-Annual-Report.pdf",
+      "discovery_url": "https://ir.aboutamazon.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/AMZN-feed.json",
+      "discovery_label": "2021 Annual Report",
+      "listing_year": 2022,
+      "source_id": "bigtech-amzn-fy2021-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2021 or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "AMZN",
+      "fiscal_year": 2022,
+      "title": "AMZN FY2022 Annual Report / Form 10-K",
+      "url": "https://s2.q4cdn.com/299287126/files/doc_financials/2023/ar/Amazon-2022-Annual-Report.pdf",
+      "discovery_url": "https://ir.aboutamazon.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/AMZN-feed.json",
+      "discovery_label": "2022 Annual Report",
+      "listing_year": 2023,
+      "source_id": "bigtech-amzn-fy2022-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2022 or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "AMZN",
+      "fiscal_year": 2023,
+      "title": "AMZN FY2023 Annual Report / Form 10-K",
+      "url": "https://s2.q4cdn.com/299287126/files/doc_financials/2024/ar/Amazon-com-Inc-2023-Annual-Report.pdf",
+      "discovery_url": "https://ir.aboutamazon.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/AMZN-feed.json",
+      "discovery_label": "2023 Annual Report",
+      "listing_year": 2024,
+      "source_id": "bigtech-amzn-fy2023-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2023 or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "AMZN",
+      "fiscal_year": 2024,
+      "title": "AMZN FY2024 Annual Report / Form 10-K",
+      "url": "https://s2.q4cdn.com/299287126/files/doc_financials/2025/ar/Amazon-2024-Annual-Report.pdf",
+      "discovery_url": "https://ir.aboutamazon.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/AMZN-feed.json",
+      "discovery_label": "2024 Annual Report",
+      "listing_year": 2025,
+      "source_id": "bigtech-amzn-fy2024-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2024 or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "AMZN",
+      "fiscal_year": 2025,
+      "title": "AMZN FY2025 Annual Report / Form 10-K",
+      "url": "https://s2.q4cdn.com/299287126/files/doc_financials/2026/ar/Amazon-2025-Annual-Report.pdf",
+      "discovery_url": "https://ir.aboutamazon.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/AMZN-feed.json",
+      "discovery_label": "2025 Annual Report",
+      "listing_year": 2026,
+      "source_id": "bigtech-amzn-fy2025-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2025 or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "GOOG",
+      "fiscal_year": 2022,
+      "title": "GOOG FY2022 Annual Report / Form 10-K",
+      "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2022/q4/goog-10-k-q4-2022.pdf",
+      "discovery_url": "https://abc.xyz/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/GOOG-feed.json",
+      "discovery_label": "PDF",
+      "listing_year": 2022,
+      "source_id": "bigtech-goog-fy2022-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2022 OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "GOOG",
+      "fiscal_year": 2023,
+      "title": "GOOG FY2023 Annual Report / Form 10-K",
+      "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2023/q4/goog-10-k-2023-final.pdf",
+      "discovery_url": "https://abc.xyz/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/GOOG-feed.json",
+      "discovery_label": "PDF",
+      "listing_year": 2023,
+      "source_id": "bigtech-goog-fy2023-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2023 OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "GOOG",
+      "fiscal_year": 2024,
+      "title": "GOOG FY2024 Annual Report / Form 10-K",
+      "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2024/q4/goog-10-k-2024.pdf",
+      "discovery_url": "https://abc.xyz/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/GOOG-feed.json",
+      "discovery_label": "PDF",
+      "listing_year": 2024,
+      "source_id": "bigtech-goog-fy2024-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2024 OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "GOOG",
+      "fiscal_year": 2025,
+      "title": "GOOG FY2025 Annual Report / Form 10-K",
+      "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2025/q4/GOOG-10-K-2025.pdf",
+      "discovery_url": "https://abc.xyz/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/GOOG-feed.json",
+      "discovery_label": "PDF",
+      "listing_year": 2025,
+      "source_id": "bigtech-goog-fy2025-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2025 OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "META",
+      "fiscal_year": 2012,
+      "title": "META FY2012 Annual Report / Form 10-K",
+      "url": "https://s21.q4cdn.com/399680738/files/doc_financials/annual_reports/FB_2012_10K.pdf",
+      "discovery_url": "https://investor.atmeta.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/META-feed.json",
+      "discovery_label": "2012 Annual Report",
+      "listing_year": 2012,
+      "source_id": "bigtech-meta-fy2012-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2012 or ‘ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "META",
+      "fiscal_year": 2013,
+      "title": "META FY2013 Annual Report / Form 10-K",
+      "url": "https://s21.q4cdn.com/399680738/files/doc_financials/annual_reports/FB_AR_33501_FINAL.pdf",
+      "discovery_url": "https://investor.atmeta.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/META-feed.json",
+      "discovery_label": "2013 Annual Report",
+      "listing_year": 2013,
+      "source_id": "bigtech-meta-fy2013-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2013 or TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE A"
+    },
+    {
+      "company_id": "META",
+      "fiscal_year": 2014,
+      "title": "META FY2014 Annual Report / Form 10-K",
+      "url": "https://s21.q4cdn.com/399680738/files/doc_financials/annual_reports/FB2014AR.pdf",
+      "discovery_url": "https://investor.atmeta.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/META-feed.json",
+      "discovery_label": "2014 Annual Report",
+      "listing_year": 2014,
+      "source_id": "bigtech-meta-fy2014-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2014 or TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE A"
+    },
+    {
+      "company_id": "META",
+      "fiscal_year": 2015,
+      "title": "META FY2015 Annual Report / Form 10-K",
+      "url": "https://s21.q4cdn.com/399680738/files/doc_financials/annual_reports/2015-Annual-Report.pdf",
+      "discovery_url": "https://investor.atmeta.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/META-feed.json",
+      "discovery_label": "2015 Annual Report",
+      "listing_year": 2015,
+      "source_id": "bigtech-meta-fy2015-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2015 or TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE A"
+    },
+    {
+      "company_id": "META",
+      "fiscal_year": 2016,
+      "title": "META FY2016 Annual Report / Form 10-K",
+      "url": "https://s21.q4cdn.com/399680738/files/doc_financials/annual_reports/FB_AR_2016_FINAL.pdf",
+      "discovery_url": "https://investor.atmeta.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/META-feed.json",
+      "discovery_label": "2016 Annual Report",
+      "listing_year": 2016,
+      "source_id": "bigtech-meta-fy2016-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2016 or TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE A"
+    },
+    {
+      "company_id": "META",
+      "fiscal_year": 2019,
+      "title": "META FY2019 Annual Report / Form 10-K",
+      "url": "https://s21.q4cdn.com/399680738/files/doc_financials/2019/ar/2019-Annual-Report.pdf",
+      "discovery_url": "https://investor.atmeta.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/META-feed.json",
+      "discovery_label": "2019 Annual Report",
+      "listing_year": 2019,
+      "source_id": "bigtech-meta-fy2019-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2019 or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "META",
+      "fiscal_year": 2021,
+      "title": "META FY2021 Annual Report / Form 10-K",
+      "url": "https://s21.q4cdn.com/399680738/files/doc_financials/annual_reports/2023/2021-Annual-Report.pdf",
+      "discovery_url": "https://investor.atmeta.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/META-feed.json",
+      "discovery_label": "2021 Annual Report",
+      "listing_year": 2021,
+      "source_id": "bigtech-meta-fy2021-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2021 or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "META",
+      "fiscal_year": 2022,
+      "title": "META FY2022 Annual Report / Form 10-K",
+      "url": "https://s21.q4cdn.com/399680738/files/doc_financials/2022/ar/Meta-12-31-2022-10K-ARS.pdf",
+      "discovery_url": "https://investor.atmeta.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/META-feed.json",
+      "discovery_label": "2022 Annual Report",
+      "listing_year": 2022,
+      "source_id": "bigtech-meta-fy2022-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2022 or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "META",
+      "fiscal_year": 2023,
+      "title": "META FY2023 Annual Report / Form 10-K",
+      "url": "https://s21.q4cdn.com/399680738/files/doc_financials/2023/ar/Meta-12-31-2023-10K-ARS.pdf",
+      "discovery_url": "https://investor.atmeta.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/META-feed.json",
+      "discovery_label": "2023 Annual Report",
+      "listing_year": 2023,
+      "source_id": "bigtech-meta-fy2023-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2023 or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "META",
+      "fiscal_year": 2024,
+      "title": "META FY2024 Annual Report / Form 10-K",
+      "url": "https://s21.q4cdn.com/399680738/files/doc_financials/2024/ar/Meta-12-31-2024-10K-ARS.pdf",
+      "discovery_url": "https://investor.atmeta.com/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/META-feed.json",
+      "discovery_label": "2024 Annual Report",
+      "listing_year": 2024,
+      "source_id": "bigtech-meta-fy2024-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2024 or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "META",
+      "fiscal_year": 2025,
+      "title": "META FY2025 Form 10-K",
+      "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001326801/b919eb05-86d9-4412-a8ff-308be1afb070.pdf",
+      "discovery_label": "Form 10-K",
+      "discovery_file": "indexes/META-all.raw",
+      "discovery_url": "https://investor.atmeta.com/feed/FinancialReport.svc/GetFinancialReportList?LanguageId=1&pageSize=-1&pageNumber=0&year=-1&reportTypes=",
+      "source_class": "issuer_hosted",
+      "source_id": "bigtech-meta-fy2025-10k",
+      "media_types": [
+        "application/pdf"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "report_period_evidence": "For the fiscal year ended December 31, 2025 or ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "MSFT",
+      "fiscal_year": 2014,
+      "title": "Microsoft 2014 Annual Report",
+      "url": "https://www.microsoft.com/investor/reports/ar14/index.html",
+      "discovery_url": "https://www.microsoft.com/en-us/investor/annual-reports",
+      "discovery_label": "2014 Annual Report VIEW ONLINE(opens in new window)",
+      "source_id": "bigtech-msft-fy2014-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "Year Ended June 30, 2014 (a) 2013 2012 2011 2010 Revenue $ 86,833 $ 77,849 $ 73,723 $ 69,943 $ 62,484 Operatin"
+    },
+    {
+      "company_id": "MSFT",
+      "fiscal_year": 2015,
+      "title": "Microsoft 2015 Annual Report",
+      "url": "https://www.microsoft.com/investor/reports/ar15/index.html",
+      "discovery_url": "https://www.microsoft.com/en-us/investor/annual-reports",
+      "discovery_label": "2015 Annual Report VIEW ONLINE(opens in new window)",
+      "source_id": "bigtech-msft-fy2015-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "Year Ended June 30, 2015 2014 (b) 2013 2012 2011 Revenue $ 93,580 $ 86,833 $ 77,849 $ 73,723 $ 69,943 Gross ma"
+    },
+    {
+      "company_id": "MSFT",
+      "fiscal_year": 2016,
+      "title": "Microsoft 2016 Annual Report",
+      "url": "https://www.microsoft.com/investor/reports/ar16/index.html",
+      "discovery_url": "https://www.microsoft.com/en-us/investor/annual-reports",
+      "discovery_label": "2016 Annual Report VIEW ONLINE(opens in new window)",
+      "source_id": "bigtech-msft-fy2016-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "Year Ended June 30, 2016 2015 2014 (d) 2013 2012 Revenue $ 85,320 (a) $ 93,580 $ 86,833 $ 77,849 $ 73,723 Gros"
+    },
+    {
+      "company_id": "MSFT",
+      "fiscal_year": 2017,
+      "title": "Microsoft 2017 Annual Report",
+      "url": "https://www.microsoft.com/investor/reports/ar17/index.html",
+      "discovery_url": "https://www.microsoft.com/en-us/investor/annual-reports",
+      "discovery_label": "2017 Annual Report VIEW ONLINE(opens in new window)",
+      "source_id": "bigtech-msft-fy2017-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "Year Ended June 30, 2017 (a) 2016 2015 2014 (h) 2013 Revenue $ 89,950 (b) $ 85,320 (d) $ 93,580 $ 86,833 $ 77,"
+    },
+    {
+      "company_id": "MSFT",
+      "fiscal_year": 2018,
+      "title": "Microsoft 2018 Annual Report",
+      "url": "https://www.microsoft.com/investor/reports/ar18/index.html",
+      "discovery_url": "https://www.microsoft.com/en-us/investor/annual-reports",
+      "discovery_label": "2018 Annual Report VIEW ONLINE(opens in new window)",
+      "source_id": "bigtech-msft-fy2018-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "Year Ended June 30, 2018 2017 (b)(c) 2016 (b) 2015 2014 (h) Revenue $ 110,360 $ 96,571 $ 91,154 $ 93,580 $ 86,"
+    },
+    {
+      "company_id": "MSFT",
+      "fiscal_year": 2019,
+      "title": "Microsoft 2019 Annual Report",
+      "url": "https://www.microsoft.com/investor/reports/ar19/index.html",
+      "discovery_url": "https://www.microsoft.com/en-us/investor/annual-reports",
+      "discovery_label": "2019 Annual Report VIEW ONLINE(opens in new window)",
+      "source_id": "bigtech-msft-fy2019-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "Year Ended June 30, 2019 (a) 2018 2017 (d)(e) 2016 (d) 2015 Revenue $ 125,843 $ 110,360 $ 96,571 $ 91,154 $ 93"
+    },
+    {
+      "company_id": "MSFT",
+      "fiscal_year": 2020,
+      "title": "Microsoft 2020 Annual Report",
+      "url": "https://www.microsoft.com/investor/reports/ar20/index.html",
+      "discovery_url": "https://www.microsoft.com/en-us/investor/annual-reports",
+      "discovery_label": "2020 Annual Report VIEW ONLINE(opens in new window)",
+      "source_id": "bigtech-msft-fy2020-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "Year Ended June 30, 2020 2019 (a) 2018 2017 (d)(e) 2016 (d) Revenue $ 143,015 $ 125,843 $ 110,360 $ 96,571 $ 9"
+    },
+    {
+      "company_id": "MSFT",
+      "fiscal_year": 2021,
+      "title": "Microsoft 2021 Annual Report",
+      "url": "https://www.microsoft.com/investor/reports/ar21/index.html",
+      "discovery_url": "https://www.microsoft.com/en-us/investor/annual-reports",
+      "discovery_label": "2021 Annual Report VIEW ONLINE(opens in new window)",
+      "source_id": "bigtech-msft-fy2021-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "Year Ended June 30, 2021 2020 2019 First Quarter 25 $ 5,270 29 $ 4,000 24 $ 2,600 Second Quarter 27 5,750 32 4"
+    },
+    {
+      "company_id": "MSFT",
+      "fiscal_year": 2022,
+      "title": "Microsoft 2022 Annual Report",
+      "url": "https://www.microsoft.com/investor/reports/ar22/index.html",
+      "discovery_url": "https://www.microsoft.com/en-us/investor/annual-reports",
+      "discovery_label": "2022 Annual Report VIEW ONLINE(opens in new window)",
+      "source_id": "bigtech-msft-fy2022-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "Year Ended June 30, 2022 2021 2020 First Quarter 21 $ 6,200 25 $ 5,270 29 $ 4,000 Second Quarter 20 6,233 27 5"
+    },
+    {
+      "company_id": "MSFT",
+      "fiscal_year": 2023,
+      "title": "Microsoft 2023 Annual Report",
+      "url": "https://www.microsoft.com/investor/reports/ar23/index.html",
+      "discovery_url": "https://www.microsoft.com/en-us/investor/annual-reports",
+      "discovery_label": "2023 Annual report VIEW ONLINE(opens in new window)",
+      "source_id": "bigtech-msft-fy2023-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "Year Ended June 30, 2023 2022 2021 First Quarter 17 $ 4,600 21 $ 6,200 25 $ 5,270 Second Quarter 20 4,600 20 6"
+    },
+    {
+      "company_id": "MSFT",
+      "fiscal_year": 2024,
+      "title": "Microsoft 2024 Annual Report",
+      "url": "https://www.microsoft.com/investor/reports/ar24/index.html",
+      "discovery_url": "https://www.microsoft.com/en-us/investor/annual-reports",
+      "discovery_label": "2024 Annual report VIEW ONLINE(opens in new window)",
+      "source_id": "bigtech-msft-fy2024-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "Year Ended June 30, 2024 2023 2022 First Quarter 11 $ 3,560 17 $ 4,600 21 $ 6,200 Second Quarter 7 2,800 20 4,"
+    },
+    {
+      "company_id": "MSFT",
+      "fiscal_year": 2025,
+      "title": "Microsoft 2025 Annual Report",
+      "url": "https://www.microsoft.com/investor/reports/ar25/index.html",
+      "discovery_url": "https://www.microsoft.com/en-us/investor/annual-reports",
+      "discovery_label": "2025 Annual report View Online",
+      "source_id": "bigtech-msft-fy2025-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "Year Ended June 30, 2025 2024 2023 First Quarter 7 $ 2,800 11 $ 3,560 17 $ 4,600 Second Quarter 8 3,500 7 2,80"
+    },
+    {
+      "company_id": "NFLX",
+      "fiscal_year": 2006,
+      "title": "NFLX FY2006 Annual Report / Form 10-K",
+      "url": "https://s22.q4cdn.com/959853165/files/doc_financials/annual_reports/NFLX.pdf",
+      "discovery_url": "https://ir.netflix.net/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/NFLX-feed.json",
+      "discovery_label": "2006 Annual Report",
+      "listing_year": 2006,
+      "source_id": "bigtech-nflx-fy2006-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2006 OR ‘ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "NFLX",
+      "fiscal_year": 2007,
+      "title": "NFLX FY2007 Annual Report / Form 10-K",
+      "url": "https://s22.q4cdn.com/959853165/files/doc_financials/annual_reports/AR_10K_final_2007.pdf",
+      "discovery_url": "https://ir.netflix.net/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/NFLX-feed.json",
+      "discovery_label": "2007 Annual Report",
+      "listing_year": 2007,
+      "source_id": "bigtech-nflx-fy2007-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2007 OR ‘ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "NFLX",
+      "fiscal_year": 2008,
+      "title": "NFLX FY2008 Annual Report / Form 10-K",
+      "url": "https://s22.q4cdn.com/959853165/files/doc_financials/annual_reports/Final_AR_10K.pdf",
+      "discovery_url": "https://ir.netflix.net/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/NFLX-feed.json",
+      "discovery_label": "2008 Annual Report",
+      "listing_year": 2008,
+      "source_id": "bigtech-nflx-fy2008-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2008 OR ‘ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "NFLX",
+      "fiscal_year": 2009,
+      "title": "NFLX FY2009 Annual Report / Form 10-K",
+      "url": "https://s22.q4cdn.com/959853165/files/doc_financials/annual_reports/2009-AR.pdf",
+      "discovery_url": "https://ir.netflix.net/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/NFLX-feed.json",
+      "discovery_label": "2009 Annual Report",
+      "listing_year": 2009,
+      "source_id": "bigtech-nflx-fy2009-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2009 OR ‘ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "NFLX",
+      "fiscal_year": 2010,
+      "title": "NFLX FY2010 Annual Report / Form 10-K",
+      "url": "https://s22.q4cdn.com/959853165/files/doc_financials/annual_reports/132054ACL.PDF",
+      "discovery_url": "https://ir.netflix.net/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/NFLX-feed.json",
+      "discovery_label": "2010 Annual Report",
+      "listing_year": 2010,
+      "source_id": "bigtech-nflx-fy2010-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2010 OR ‘ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "NFLX",
+      "fiscal_year": 2011,
+      "title": "NFLX FY2011 Annual Report / Form 10-K",
+      "url": "https://s22.q4cdn.com/959853165/files/doc_financials/annual_reports/NFLX_10K.pdf",
+      "discovery_url": "https://ir.netflix.net/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/NFLX-feed.json",
+      "discovery_label": "2011 Annual Report",
+      "listing_year": 2011,
+      "source_id": "bigtech-nflx-fy2011-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2011 OR ‘ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "NFLX",
+      "fiscal_year": 2012,
+      "title": "NFLX FY2012 Annual Report / Form 10-K",
+      "url": "https://s22.q4cdn.com/959853165/files/doc_financials/annual_reports/2012_10K.pdf",
+      "discovery_url": "https://ir.netflix.net/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/NFLX-feed.json",
+      "discovery_label": "2012 Annual Report",
+      "listing_year": 2012,
+      "source_id": "bigtech-nflx-fy2012-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2012 OR ‘ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "NFLX",
+      "fiscal_year": 2013,
+      "title": "NFLX FY2013 Annual Report / Form 10-K",
+      "url": "https://s22.q4cdn.com/959853165/files/doc_financials/annual_reports/NFLX_AR.PDF",
+      "discovery_url": "https://ir.netflix.net/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/NFLX-feed.json",
+      "discovery_label": "2013 Annual Report",
+      "listing_year": 2013,
+      "source_id": "bigtech-nflx-fy2013-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2013 OR ‘ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "NFLX",
+      "fiscal_year": 2014,
+      "title": "NFLX FY2014 Annual Report / Form 10-K",
+      "url": "https://s22.q4cdn.com/959853165/files/doc_financials/annual_reports/SEC-NFLX-1065280-15-6.pdf",
+      "discovery_url": "https://ir.netflix.net/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/NFLX-feed.json",
+      "discovery_label": "2014 Annual Report",
+      "listing_year": 2014,
+      "source_id": "bigtech-nflx-fy2014-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2014 OR \u0003 TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "NFLX",
+      "fiscal_year": 2015,
+      "title": "NFLX FY2015 Annual Report / Form 10-K",
+      "url": "https://s22.q4cdn.com/959853165/files/doc_financials/annual_reports/2015_Annual_Report.pdf",
+      "discovery_url": "https://ir.netflix.net/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/NFLX-feed.json",
+      "discovery_label": "2015 Annual Report",
+      "listing_year": 2015,
+      "source_id": "bigtech-nflx-fy2015-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2015 OR ‘ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "NFLX",
+      "fiscal_year": 2016,
+      "title": "NFLX FY2016 Annual Report / Form 10-K",
+      "url": "https://s22.q4cdn.com/959853165/files/doc_financials/annual_reports/10K_Final.PDF",
+      "discovery_url": "https://ir.netflix.net/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/NFLX-feed.json",
+      "discovery_label": "2016 Annual Report",
+      "listing_year": 2016,
+      "source_id": "bigtech-nflx-fy2016-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2016 OR ‘ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "NFLX",
+      "fiscal_year": 2017,
+      "title": "NFLX FY2017 Annual Report / Form 10-K",
+      "url": "https://s22.q4cdn.com/959853165/files/doc_financials/annual_reports/0001065280-18-000069.pdf",
+      "discovery_url": "https://ir.netflix.net/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/NFLX-feed.json",
+      "discovery_label": "2017 Annual Report",
+      "listing_year": 2017,
+      "source_id": "bigtech-nflx-fy2017-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2017 OR o TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "NFLX",
+      "fiscal_year": 2018,
+      "title": "NFLX FY2018 Annual Report / Form 10-K",
+      "url": "https://s22.q4cdn.com/959853165/files/doc_financials/annual_reports/2018/Form-10K_Q418_Filed.pdf",
+      "discovery_url": "https://ir.netflix.net/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/NFLX-feed.json",
+      "discovery_label": "2018 Annual Report",
+      "listing_year": 2018,
+      "source_id": "bigtech-nflx-fy2018-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2018 OR TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE A"
+    },
+    {
+      "company_id": "NFLX",
+      "fiscal_year": 2019,
+      "title": "NFLX FY2019 Annual Report / Form 10-K",
+      "url": "https://s22.q4cdn.com/959853165/files/doc_financials/2019/ar/2019-10-K.pdf",
+      "discovery_url": "https://ir.netflix.net/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/NFLX-feed.json",
+      "discovery_label": "2019 Annual Report",
+      "listing_year": 2019,
+      "source_id": "bigtech-nflx-fy2019-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2019 OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "NFLX",
+      "fiscal_year": 2020,
+      "title": "NFLX FY2020 Annual Report / Form 10-K",
+      "url": "https://s22.q4cdn.com/959853165/files/doc_financials/2020/ar/8f311d9b-787d-45db-a6ea-38335ede9d47.pdf",
+      "discovery_url": "https://ir.netflix.net/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/NFLX-feed.json",
+      "discovery_label": "2020 Annual Report",
+      "listing_year": 2020,
+      "source_id": "bigtech-nflx-fy2020-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2020 OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "NFLX",
+      "fiscal_year": 2021,
+      "title": "NFLX FY2021 Annual Report / Form 10-K",
+      "url": "https://s22.q4cdn.com/959853165/files/doc_financials/2021/q4/da27d24b-9358-4b5c-a424-6da061d91836.pdf",
+      "discovery_url": "https://ir.netflix.net/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/NFLX-feed.json",
+      "discovery_label": "2021 Annual Report",
+      "listing_year": 2021,
+      "source_id": "bigtech-nflx-fy2021-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2021 OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "NFLX",
+      "fiscal_year": 2022,
+      "title": "NFLX FY2022 Annual Report / Form 10-K",
+      "url": "https://s22.q4cdn.com/959853165/files/doc_financials/2022/ar/4e32b45c-a99e-4c7d-b988-4eef8377500c.pdf",
+      "discovery_url": "https://ir.netflix.net/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/NFLX-feed.json",
+      "discovery_label": "2022 Annual Report",
+      "listing_year": 2022,
+      "source_id": "bigtech-nflx-fy2022-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2022 OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "NFLX",
+      "fiscal_year": 2023,
+      "title": "NFLX FY2023 Annual Report / Form 10-K",
+      "url": "https://s22.q4cdn.com/959853165/files/doc_financials/2023/ar/Netflix-10-K-01262024.pdf",
+      "discovery_url": "https://ir.netflix.net/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/NFLX-feed.json",
+      "discovery_label": "2023 Annual Report",
+      "listing_year": 2023,
+      "source_id": "bigtech-nflx-fy2023-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2023 OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "NFLX",
+      "fiscal_year": 2024,
+      "title": "NFLX FY2024 Annual Report / Form 10-K",
+      "url": "https://s22.q4cdn.com/959853165/files/doc_financials/2024/ar/Netflix-10-K-01272025.pdf",
+      "discovery_url": "https://ir.netflix.net/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/NFLX-feed.json",
+      "discovery_label": "2024 Annual Report",
+      "listing_year": 2024,
+      "source_id": "bigtech-nflx-fy2024-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2024 OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "NFLX",
+      "fiscal_year": 2025,
+      "title": "NFLX FY2025 Annual Report / Form 10-K",
+      "url": "https://s22.q4cdn.com/959853165/files/doc_financials/2025/ar/99482238-46b2-4d0d-b292-40e6781bdf03.pdf",
+      "discovery_url": "https://ir.netflix.net/feed/FinancialReport.svc/GetFinancialReportList",
+      "discovery_file": "indexes/NFLX-feed.json",
+      "discovery_label": "2025 Annual Report",
+      "listing_year": 2025,
+      "source_id": "bigtech-nflx-fy2025-annual",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "source_class": "issuer_hosted",
+      "report_period_evidence": "For the fiscal year ended December 31, 2025 OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "NVDA",
+      "fiscal_year": 2009,
+      "title": "NVDA FY2009 Form 10-K",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/quarterly_reports/2009/10K-2009-Q4.pdf",
+      "discovery_label": "Form 10-K",
+      "discovery_file": "indexes/NVDA-all.raw",
+      "discovery_url": "https://investor.nvidia.com/feed/FinancialReport.svc/GetFinancialReportList?LanguageId=1&pageSize=-1&pageNumber=0&year=-1&reportTypes=",
+      "source_class": "issuer_hosted",
+      "source_id": "bigtech-nvda-fy2009-10k",
+      "media_types": [
+        "application/pdf"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "report_period_evidence": "For the fiscal year ended January 25, 2009 OR [_] TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANG"
+    },
+    {
+      "company_id": "NVDA",
+      "fiscal_year": 2010,
+      "title": "NVDA FY2010 Form 10-K",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/quarterly_reports/2010/10K-2010-Q4.pdf",
+      "discovery_label": "Form 10-K",
+      "discovery_file": "indexes/NVDA-all.raw",
+      "discovery_url": "https://investor.nvidia.com/feed/FinancialReport.svc/GetFinancialReportList?LanguageId=1&pageSize=-1&pageNumber=0&year=-1&reportTypes=",
+      "source_class": "issuer_hosted",
+      "source_id": "bigtech-nvda-fy2010-10k",
+      "media_types": [
+        "application/pdf"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "report_period_evidence": "For the fiscal year ended January 31, 2010 OR [_] TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANG"
+    },
+    {
+      "company_id": "NVDA",
+      "fiscal_year": 2011,
+      "title": "NVDA FY2011 Form 10-K",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/quarterly_reports/2011/10K-2011-Q4.pdf",
+      "discovery_label": "Form 10-K",
+      "discovery_file": "indexes/NVDA-all.raw",
+      "discovery_url": "https://investor.nvidia.com/feed/FinancialReport.svc/GetFinancialReportList?LanguageId=1&pageSize=-1&pageNumber=0&year=-1&reportTypes=",
+      "source_class": "issuer_hosted",
+      "source_id": "bigtech-nvda-fy2011-10k",
+      "media_types": [
+        "application/pdf"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "report_period_evidence": "For the fiscal year ended January 30, 2011 OR [_] TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANG"
+    },
+    {
+      "company_id": "NVDA",
+      "fiscal_year": 2012,
+      "title": "NVDA FY2012 Form 10-K",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/quarterly_reports/2012/10K-2012-Q4.pdf",
+      "discovery_label": "Form 10-K",
+      "discovery_file": "indexes/NVDA-all.raw",
+      "discovery_url": "https://investor.nvidia.com/feed/FinancialReport.svc/GetFinancialReportList?LanguageId=1&pageSize=-1&pageNumber=0&year=-1&reportTypes=",
+      "source_class": "issuer_hosted",
+      "source_id": "bigtech-nvda-fy2012-10k",
+      "media_types": [
+        "application/pdf"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "report_period_evidence": "For the fiscal year ended January 29, 2012 OR [_] TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANG"
+    },
+    {
+      "company_id": "NVDA",
+      "fiscal_year": 2013,
+      "title": "NVDA FY2013 Form 10-K",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/quarterly_reports/2013/10K-2013-Q4.pdf",
+      "discovery_label": "Form 10-K",
+      "discovery_file": "indexes/NVDA-all.raw",
+      "discovery_url": "https://investor.nvidia.com/feed/FinancialReport.svc/GetFinancialReportList?LanguageId=1&pageSize=-1&pageNumber=0&year=-1&reportTypes=",
+      "source_class": "issuer_hosted",
+      "source_id": "bigtech-nvda-fy2013-10k",
+      "media_types": [
+        "application/pdf"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "report_period_evidence": "For the fiscal year ended January 27, 2013 OR [_] TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANG"
+    },
+    {
+      "company_id": "NVDA",
+      "fiscal_year": 2014,
+      "title": "NVDA FY2014 Form 10-K",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/quarterly_reports/2014/10K-2014-Q4.pdf",
+      "discovery_label": "Form 10-K",
+      "discovery_file": "indexes/NVDA-all.raw",
+      "discovery_url": "https://investor.nvidia.com/feed/FinancialReport.svc/GetFinancialReportList?LanguageId=1&pageSize=-1&pageNumber=0&year=-1&reportTypes=",
+      "source_class": "issuer_hosted",
+      "source_id": "bigtech-nvda-fy2014-10k",
+      "media_types": [
+        "application/pdf"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "report_period_evidence": "For the fiscal year ended January 26, 2014 OR [_] TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANG"
+    },
+    {
+      "company_id": "NVDA",
+      "fiscal_year": 2015,
+      "title": "NVDA FY2015 Form 10-K",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/quarterly_reports/2015/10K-2015-Q4.pdf",
+      "discovery_label": "Form 10-K",
+      "discovery_file": "indexes/NVDA-all.raw",
+      "discovery_url": "https://investor.nvidia.com/feed/FinancialReport.svc/GetFinancialReportList?LanguageId=1&pageSize=-1&pageNumber=0&year=-1&reportTypes=",
+      "source_class": "issuer_hosted",
+      "source_id": "bigtech-nvda-fy2015-10k",
+      "media_types": [
+        "application/pdf"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "report_period_evidence": "For the fiscal year ended January 25, 2015 OR [_] TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANG"
+    },
+    {
+      "company_id": "NVDA",
+      "fiscal_year": 2016,
+      "title": "NVDA FY2016 Form 10-K",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/quarterly_reports/2016/10K-2016-Q4.pdf",
+      "discovery_label": "Form 10-K",
+      "discovery_file": "indexes/NVDA-all.raw",
+      "discovery_url": "https://investor.nvidia.com/feed/FinancialReport.svc/GetFinancialReportList?LanguageId=1&pageSize=-1&pageNumber=0&year=-1&reportTypes=",
+      "source_class": "issuer_hosted",
+      "source_id": "bigtech-nvda-fy2016-10k",
+      "media_types": [
+        "application/pdf"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "report_period_evidence": "For the fiscal year ended January 31, 2016 OR [_] TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANG"
+    },
+    {
+      "company_id": "NVDA",
+      "fiscal_year": 2017,
+      "title": "NVDA FY2017 Form 10-K",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/quarterly_reports/2017/10K-2017-Q4.pdf",
+      "discovery_label": "Form 10-K",
+      "discovery_file": "indexes/NVDA-all.raw",
+      "discovery_url": "https://investor.nvidia.com/feed/FinancialReport.svc/GetFinancialReportList?LanguageId=1&pageSize=-1&pageNumber=0&year=-1&reportTypes=",
+      "source_class": "issuer_hosted",
+      "source_id": "bigtech-nvda-fy2017-10k",
+      "media_types": [
+        "application/pdf"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "report_period_evidence": "For the fiscal year ended January 29, 2017 OR [_] TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANG"
+    },
+    {
+      "company_id": "NVDA",
+      "fiscal_year": 2018,
+      "title": "NVDA FY2018 Form 10-K",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/quarterly_reports/2018/NVIDIA-Q4Y18-Form-10K.pdf",
+      "discovery_label": "Form 10-K",
+      "discovery_file": "indexes/NVDA-all.raw",
+      "discovery_url": "https://investor.nvidia.com/feed/FinancialReport.svc/GetFinancialReportList?LanguageId=1&pageSize=-1&pageNumber=0&year=-1&reportTypes=",
+      "source_class": "issuer_hosted",
+      "source_id": "bigtech-nvda-fy2018-10k",
+      "media_types": [
+        "application/pdf"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "report_period_evidence": "For the fiscal year ended January 28, 2018 OR [_] TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANG"
+    },
+    {
+      "company_id": "NVDA",
+      "fiscal_year": 2019,
+      "title": "NVDA FY2019 Form 10-K",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/quarterly_reports/2019/Q419/nvidia2019-10K.pdf",
+      "discovery_label": "10-K",
+      "discovery_file": "indexes/NVDA-all.raw",
+      "discovery_url": "https://investor.nvidia.com/feed/FinancialReport.svc/GetFinancialReportList?LanguageId=1&pageSize=-1&pageNumber=0&year=-1&reportTypes=",
+      "source_class": "issuer_hosted",
+      "source_id": "bigtech-nvda-fy2019-10k",
+      "media_types": [
+        "application/pdf"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "report_period_evidence": "For the fiscal year ended January 27, 2019 OR [_] TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANG"
+    },
+    {
+      "company_id": "NVDA",
+      "fiscal_year": 2020,
+      "title": "NVDA FY2020 Form 10-K",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2020/q4/174b2f06-ba5b-4e0a-b288-e33c46e9a0a4.pdf",
+      "discovery_label": "10-K",
+      "discovery_file": "indexes/NVDA-all.raw",
+      "discovery_url": "https://investor.nvidia.com/feed/FinancialReport.svc/GetFinancialReportList?LanguageId=1&pageSize=-1&pageNumber=0&year=-1&reportTypes=",
+      "source_class": "issuer_hosted",
+      "source_id": "bigtech-nvda-fy2020-10k",
+      "media_types": [
+        "application/pdf"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "report_period_evidence": "For the fiscal year ended January 26, 2020 OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE "
+    },
+    {
+      "company_id": "NVDA",
+      "fiscal_year": 2021,
+      "title": "NVDA FY2021 Form 10-K",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2021/q4/0ec16816-55e2-4812-8f77-75cab5909247.pdf",
+      "discovery_label": "10-K",
+      "discovery_file": "indexes/NVDA-all.raw",
+      "discovery_url": "https://investor.nvidia.com/feed/FinancialReport.svc/GetFinancialReportList?LanguageId=1&pageSize=-1&pageNumber=0&year=-1&reportTypes=",
+      "source_class": "issuer_hosted",
+      "source_id": "bigtech-nvda-fy2021-10k",
+      "media_types": [
+        "application/pdf"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "report_period_evidence": "For the fiscal year ended January 31, 2021 OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE "
+    },
+    {
+      "company_id": "NVDA",
+      "fiscal_year": 2022,
+      "title": "NVDA FY2022 Form 10-K",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2022/q4/ca04d49f-caab-436f-9e6f-e8493c8e8515.pdf",
+      "discovery_label": "10-K",
+      "discovery_file": "indexes/NVDA-all.raw",
+      "discovery_url": "https://investor.nvidia.com/feed/FinancialReport.svc/GetFinancialReportList?LanguageId=1&pageSize=-1&pageNumber=0&year=-1&reportTypes=",
+      "source_class": "issuer_hosted",
+      "source_id": "bigtech-nvda-fy2022-10k",
+      "media_types": [
+        "application/pdf"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "report_period_evidence": "For the fiscal year ended January 30, 2022 OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE "
+    },
+    {
+      "company_id": "NVDA",
+      "fiscal_year": 2023,
+      "title": "NVDA FY2023 Form 10-K",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2023/q4/4e9abe7b-fdc7-4cd2-8487-dc3a99f30e98.pdf",
+      "discovery_label": "10-K",
+      "discovery_file": "indexes/NVDA-all.raw",
+      "discovery_url": "https://investor.nvidia.com/feed/FinancialReport.svc/GetFinancialReportList?LanguageId=1&pageSize=-1&pageNumber=0&year=-1&reportTypes=",
+      "source_class": "issuer_hosted",
+      "source_id": "bigtech-nvda-fy2023-10k",
+      "media_types": [
+        "application/pdf"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "report_period_evidence": "For the fiscal year ended January 29, 2023 OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE "
+    },
+    {
+      "company_id": "NVDA",
+      "fiscal_year": 2024,
+      "title": "NVDA FY2024 Form 10-K",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2024/q4/1cbe8fe7-e08a-46e3-8dcc-b429fc06c1a4.pdf",
+      "discovery_label": "10-K",
+      "discovery_file": "indexes/NVDA-all.raw",
+      "discovery_url": "https://investor.nvidia.com/feed/FinancialReport.svc/GetFinancialReportList?LanguageId=1&pageSize=-1&pageNumber=0&year=-1&reportTypes=",
+      "source_class": "issuer_hosted",
+      "source_id": "bigtech-nvda-fy2024-10k",
+      "media_types": [
+        "application/pdf"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "report_period_evidence": "For the fiscal year ended January 28, 2024 OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE "
+    },
+    {
+      "company_id": "NVDA",
+      "fiscal_year": 2025,
+      "title": "NVDA FY2025 Form 10-K",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2025/q4/177440d5-3b32-4185-8cc8-95500a9dc783.pdf",
+      "discovery_label": "10-K",
+      "discovery_file": "indexes/NVDA-all.raw",
+      "discovery_url": "https://investor.nvidia.com/feed/FinancialReport.svc/GetFinancialReportList?LanguageId=1&pageSize=-1&pageNumber=0&year=-1&reportTypes=",
+      "source_class": "issuer_hosted",
+      "source_id": "bigtech-nvda-fy2025-10k",
+      "media_types": [
+        "application/pdf"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "report_period_evidence": "For the fiscal year ended January 26, 2025 OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE "
+    },
+    {
+      "company_id": "TSLA",
+      "fiscal_year": 2011,
+      "title": "Tesla FY2011 Form 10-K",
+      "url": "https://ir.tesla.com/_flysystem/s3/sec/000119312512081990/d279413d10k.html",
+      "source_id": "bigtech-tsla-fy2011-official",
+      "source_class": "issuer_hosted",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "discovery_url": "https://ir.tesla.com/sec-filings",
+      "discovery_method": "search_index_exact_official_url",
+      "discovery_label": "Tesla Form 10-K 2011",
+      "report_period_evidence": "For the fiscal year ended December 31, 2011 OR ¨ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "TSLA",
+      "fiscal_year": 2012,
+      "title": "Tesla FY2012 Form 10-K",
+      "url": "https://ir.tesla.com/_flysystem/s3/sec/000119312513096241/d452995d10k.html",
+      "source_id": "bigtech-tsla-fy2012-official",
+      "source_class": "issuer_hosted",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "discovery_url": "https://ir.tesla.com/sec-filings",
+      "discovery_method": "search_index_exact_official_url",
+      "discovery_label": "Tesla Form 10-K 2012",
+      "report_period_evidence": "For the fiscal year ended December 31, 2012 OR ¨ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "TSLA",
+      "fiscal_year": 2013,
+      "title": "Tesla FY2013 Form 10-K",
+      "url": "https://ir.tesla.com/_flysystem/s3/sec/000119312514069681/d668062d10k.html",
+      "source_id": "bigtech-tsla-fy2013-official",
+      "source_class": "issuer_hosted",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "discovery_url": "https://ir.tesla.com/sec-filings",
+      "discovery_method": "search_index_exact_official_url",
+      "discovery_label": "Tesla Form 10-K 2013",
+      "report_period_evidence": "For the fiscal year ended December 31, 2013 OR ¨ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "TSLA",
+      "fiscal_year": 2014,
+      "title": "Tesla FY2014 Form 10-K",
+      "url": "https://ir.tesla.com/_flysystem/s3/sec/000156459015001031/tsla-10k_20141231-gen_0.pdf",
+      "source_id": "bigtech-tsla-fy2014-official",
+      "source_class": "issuer_hosted",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "discovery_url": "https://ir.tesla.com/sec-filings",
+      "discovery_method": "search_index_exact_official_url",
+      "discovery_label": "Tesla Form 10-K 2014",
+      "report_period_evidence": "For the fiscal year ended December 31, 2014 OR ¨ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "TSLA",
+      "fiscal_year": 2015,
+      "title": "Tesla FY2015 Form 10-K",
+      "url": "https://ir.tesla.com/_flysystem/s3/sec/000156459016013195/tsla-10k_20151231-gen_0.pdf",
+      "source_id": "bigtech-tsla-fy2015-official",
+      "source_class": "issuer_hosted",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "discovery_url": "https://ir.tesla.com/sec-filings",
+      "discovery_method": "search_index_exact_official_url",
+      "discovery_label": "Tesla Form 10-K 2015",
+      "report_period_evidence": "For the fiscal year ended December 31, 2015 OR ¨ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "TSLA",
+      "fiscal_year": 2016,
+      "title": "Tesla FY2016 Form 10-K",
+      "url": "https://ir.tesla.com/_flysystem/s3/sec/000156459017003118/tsla-10k_20161231.html",
+      "source_id": "bigtech-tsla-fy2016-official",
+      "source_class": "issuer_hosted",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "discovery_url": "https://ir.tesla.com/sec-filings",
+      "discovery_method": "search_index_exact_official_url",
+      "discovery_label": "Tesla Form 10-K 2016",
+      "report_period_evidence": "For the fiscal year ended December 31, 2016 OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "TSLA",
+      "fiscal_year": 2017,
+      "title": "Tesla FY2017 Form 10-K",
+      "url": "https://ir.tesla.com/_flysystem/s3/sec/000156459018002956/tsla-10k_20171231-gen_0.pdf",
+      "source_id": "bigtech-tsla-fy2017-official",
+      "source_class": "issuer_hosted",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "discovery_url": "https://ir.tesla.com/sec-filings",
+      "discovery_method": "search_index_exact_official_url",
+      "discovery_label": "Tesla Form 10-K 2017",
+      "report_period_evidence": "For the fiscal year ended December 31, 2017 OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "TSLA",
+      "fiscal_year": 2018,
+      "title": "Tesla FY2018 Form 10-K",
+      "url": "https://ir.tesla.com/_flysystem/s3/sec/000156459019003165/tsla-10k_20181231-gen_0.pdf",
+      "source_id": "bigtech-tsla-fy2018-official",
+      "source_class": "issuer_hosted",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "discovery_url": "https://ir.tesla.com/sec-filings",
+      "discovery_method": "search_index_exact_official_url",
+      "discovery_label": "Tesla Form 10-K 2018",
+      "report_period_evidence": "For the fiscal year ended December 31, 2018 OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "TSLA",
+      "fiscal_year": 2020,
+      "title": "Tesla FY2020 Form 10-K",
+      "url": "https://ir.tesla.com/_flysystem/s3/sec/000156459021004599/tsla-10k_20201231-gen.pdf",
+      "source_id": "bigtech-tsla-fy2020-official",
+      "source_class": "issuer_hosted",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "discovery_url": "https://ir.tesla.com/sec-filings",
+      "discovery_method": "search_index_exact_official_url",
+      "discovery_label": "Tesla Form 10-K 2020",
+      "report_period_evidence": "For the fiscal year ended December 31, 2020 OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "TSLA",
+      "fiscal_year": 2022,
+      "title": "Tesla FY2022 Form 10-K",
+      "url": "https://ir.tesla.com/_flysystem/s3/sec/000095017023001409/tsla-20221231-gen.pdf",
+      "source_id": "bigtech-tsla-fy2022-official",
+      "source_class": "issuer_hosted",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "discovery_url": "https://ir.tesla.com/sec-filings",
+      "discovery_method": "search_index_exact_official_url",
+      "discovery_label": "Tesla Form 10-K 2022",
+      "report_period_evidence": "For the fiscal year ended December 31, 2022 OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "TSLA",
+      "fiscal_year": 2023,
+      "title": "Tesla FY2023 Form 10-K",
+      "url": "https://ir.tesla.com/_flysystem/s3/sec/000162828024002390/tsla-20231231-gen.pdf",
+      "source_id": "bigtech-tsla-fy2023-official",
+      "source_class": "issuer_hosted",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "discovery_url": "https://ir.tesla.com/sec-filings",
+      "discovery_method": "search_index_exact_official_url",
+      "discovery_label": "Tesla Form 10-K 2023",
+      "report_period_evidence": "For the fiscal year ended December 31, 2023 OR o TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "TSLA",
+      "fiscal_year": 2024,
+      "title": "Tesla FY2024 Form 10-K",
+      "url": "https://ir.tesla.com/_flysystem/s3/sec/000162828025003063/tsla-20241231-gen.pdf",
+      "source_id": "bigtech-tsla-fy2024-official",
+      "source_class": "issuer_hosted",
+      "media_types": [
+        "application/pdf",
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "discovery_url": "https://ir.tesla.com/sec-filings",
+      "discovery_method": "search_index_exact_official_url",
+      "discovery_label": "Tesla Form 10-K 2024",
+      "report_period_evidence": "For the fiscal year ended December 31, 2024 OR o TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    },
+    {
+      "company_id": "TSLA",
+      "fiscal_year": 2025,
+      "title": "TSLA FY2025 Annual Report / Form 10-K",
+      "url": "https://ir.tesla.com/_flysystem/s3/sec/000162828026003952/tsla-20251231-gen.pdf",
+      "discovery_url": "https://ir.tesla.com/sec-filings",
+      "discovery_method": "search_index_exact_url",
+      "source_class": "issuer_hosted",
+      "source_id": "bigtech-tsla-fy2025-official-supplement",
+      "media_types": [
+        "application/pdf"
+      ],
+      "rights_status": "review_required",
+      "published_at": null,
+      "report_period_evidence": "For the fiscal year ended December 31, 2025 OR o TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE"
+    }
+  ]
+}

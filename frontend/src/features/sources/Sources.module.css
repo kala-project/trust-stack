@@ -1,0 +1,14 @@
+.page { max-width: 920px; margin: 0 auto; }
+.description { color: var(--muted); line-height: 1.8; }
+.filter { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin: 32px 0 24px; }
+.filter select { flex: 1; max-width: 440px; min-width: 0; }
+.coverage { font-size: 16px; margin: 0; font-variant-numeric: tabular-nums; }
+.documents { margin-top: 28px; }
+.document { padding: 20px 0; border-top: 1px solid var(--line); }
+.document h2 { margin: 0 0 8px; font-size: 18px; }
+.meta { color: var(--muted); font-size: 13px; }
+.document summary { color: var(--blue); }
+.document dl { display: grid; grid-template-columns: 90px minmax(0, 1fr); font-size: 13px; gap: 12px; background: var(--soft); padding: 16px; border-radius: 6px; }
+.document dt { color: var(--muted); }
+.document dd { margin: 0; overflow-wrap: anywhere; }
+@media (max-width: 600px) { .filter select { flex-basis: 70%; } .document dl { display: block; } .document dd { margin: 4px 0 12px; } }

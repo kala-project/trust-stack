@@ -1,0 +1,60 @@
+:root {
+  color-scheme: light;
+  --canvas: #f7f8fa;
+  --surface: #ffffff;
+  --ink: #202731;
+  --muted: #596575;
+  --line: #dde2e8;
+  --action: #2856b6;
+  --action-foreground: #ffffff;
+  --action-hover: #20499e;
+  --action-soft: #edf3ff;
+  --red: #a43b43;
+  --red-soft: #fff0f1;
+  --focus: #6d91db;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  color: var(--ink);
+  background: var(--canvas);
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --canvas: #11151b;
+  --surface: #181e27;
+  --ink: #edf1f6;
+  --muted: #b6c0ce;
+  --line: #394352;
+  --action: #8eafff;
+  --action-foreground: #11151b;
+  --action-hover: #abc2ff;
+  --action-soft: #243457;
+  --red: #ff9da6;
+  --red-soft: #3b242a;
+  --focus: #9eb9ff;
+}
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; min-height: 100vh; color: var(--ink); background: var(--canvas); font-size: 14px; line-height: 1.6; }
+.auth-shell { position: relative; display: grid; min-height: 100vh; place-items: center; padding: 72px 24px 32px; }
+.auth-card { width: min(100%, 430px); padding: 32px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }
+.brand-mark { display: grid; width: 36px; height: 36px; place-items: center; border: 1px solid var(--line); border-radius: 6px; color: var(--action); background: var(--action-soft); font-size: 16px; font-weight: 750; }
+.eyebrow { margin: 24px 0 6px; color: var(--action); font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+h1 { margin: 0 0 10px; font-size: clamp(24px, 5vw, 28px); line-height: 1.3; letter-spacing: -.02em; }
+p { color: var(--muted); }
+form { display: grid; gap: 10px; margin-top: 24px; }
+label { font-weight: 650; }
+input, button, select { min-height: 44px; border-radius: 6px; font: inherit; }
+input, select { width: 100%; padding: 10px 12px; border: 1px solid var(--line); color: var(--ink); background: var(--surface); }
+:is(input, button, select):focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+button { padding: 10px 18px; border: 1px solid var(--action); color: var(--action-foreground); background: var(--action); font-weight: 700; cursor: pointer; }
+button:hover { border-color: var(--action-hover); background: var(--action-hover); }
+button:disabled { cursor: wait; opacity: .6; }
+.error { margin-top: 18px; padding: 12px; border-left: 4px solid var(--red); color: var(--red); background: var(--red-soft); }
+.privacy { margin: 24px 0 0; padding-top: 18px; border-top: 1px solid var(--line); font-size: 13px; }
+.auth-theme { position: absolute; top: 16px; right: 20px; display: flex; align-items: center; gap: 8px; color: var(--muted); font-size: 13px; }
+.auth-theme select { width: auto; min-width: 116px; }
+[hidden] { display: none !important; }
+@media (max-width: 520px) {
+  .auth-shell { padding: 72px 12px 12px; }
+  .auth-card { padding: 24px 20px; }
+  .auth-theme { right: 12px; }
+}
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; } }

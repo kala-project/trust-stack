@@ -1,0 +1,27 @@
+.shell { --shell-nav-width: 280px; display: grid; grid-template-columns: 280px minmax(0, 1fr); height: 100vh; height: 100dvh; overflow: hidden; color: var(--ink); background: var(--canvas); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif; font-size: 14px; line-height: 1.6; }
+.shell * { box-sizing: border-box; }
+.collapsed { --shell-nav-width: 0px; grid-template-columns: 0 minmax(0, 1fr); }
+.sidebar { display: flex; flex-direction: column; min-width: 0; background: var(--sidebar-bg); border-right: 1px solid var(--line); padding: 0 12px; overflow: hidden; }
+.collapsed .sidebar { visibility: hidden; padding: 0; }
+.brand { display: flex; align-items: center; gap: 10px; flex-shrink: 0; height: 72px; padding: 0 12px; white-space: nowrap; }
+.brand strong { font-size: 16px; font-weight: 650; }
+.brand button { margin-left: auto; }
+.content { min-width: 0; min-height: 0; display: flex; flex-direction: column; background: var(--paper); }
+.topbar { display: flex; align-items: center; gap: 12px; height: 64px; flex-shrink: 0; padding: 0 24px; border-bottom: 1px solid var(--line); color: var(--muted); background: var(--paper); }
+.toolbar { margin-left: auto; display: flex; align-items: center; gap: 4px; }
+.main { flex: 1; min-width: 0; min-height: 0; overflow-y: auto; scrollbar-gutter: stable; outline: none; }
+.iconButton { display: inline-flex; align-items: center; justify-content: center; flex: 0 0 auto; width: 40px; min-height: 40px; padding: 8px; border: 0; border-radius: 6px; color: var(--ink); background: transparent; cursor: pointer; font: inherit; }
+.iconButton:hover { background: var(--soft); }
+.iconButton:focus-visible, .skipLink:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 3px; }
+.skipLink { position: fixed; left: 12px; top: -100px; z-index: 110; padding: 12px; color: var(--blue); background: var(--paper); }
+.skipLink:focus { top: 12px; }
+.backdrop { position: fixed; inset: 0; background: #0008; z-index: 70; }
+@media (max-width: 960px) {
+  .shell { --shell-nav-width: 0px; grid-template-columns: minmax(0, 1fr); }
+  .sidebar { position: fixed; inset: 0 auto 0 0; width: min(320px, 92vw); z-index: 71; visibility: hidden; transform: translateX(-100%); padding-top: env(safe-area-inset-top); padding-bottom: env(safe-area-inset-bottom); }
+  .sidebar.open { visibility: visible; transform: translateX(0); }
+  .topbar { padding: 0 16px; }
+}
+@media (max-width: 600px) { .topbar { gap: 8px; padding: 0 12px; } }
+@media (pointer: coarse) { .iconButton { width: 44px; min-height: 44px; } }
+@media (prefers-reduced-motion: reduce) { .sidebar { transition: none; } }

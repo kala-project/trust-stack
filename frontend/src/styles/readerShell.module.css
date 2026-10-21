@@ -1,0 +1,9 @@
+:global(body.reader-app) { margin: 0; overflow: hidden; color: var(--ink); background: var(--canvas); }
+.readerMain.readerMain { width: 100%; max-width: none; margin: 0; padding: 40px 48px 116px; }
+.readerMain :global(.reader-toc-button) { display: inline-flex; align-items: center; }
+.tocSource { display: none !important; }
+.readerMain :global(.reader-bottom-bar) { left: calc(50% + var(--shell-nav-width, 0px) / 2); max-width: calc(100vw - var(--shell-nav-width, 0px) - 28px); }
+:global(body.reading-two-page) .readerMain.readerMain { width: 100%; padding-right: 16px; padding-left: 16px; }
+@media (max-width: 1200px) { .readerMain.readerMain { padding: 32px 28px 116px; } }
+@media (max-width: 960px) { .readerMain.readerMain { width: 100%; padding: 28px 18px 118px; } }
+@media (max-width: 600px) { .readerMain.readerMain { padding-right: 16px; padding-left: 16px; } }

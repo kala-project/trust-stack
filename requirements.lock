@@ -1,0 +1,4 @@
+# Core application runtime third-party dependencies: NONE (stdlib only).
+# Isolated Copilot runtime dependencies are separately pinned in requirements-copilot.lock.
+# This core lock adds no floating package, install hook, npm dependency, or CDN dependency.
+# Python 3.14.4 is the pre-existing tested interpreter; it was not installed here.

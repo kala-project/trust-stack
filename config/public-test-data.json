@@ -1,0 +1,533 @@
+{
+  "schema_version": "public-test-data-bundle/1",
+  "bundle_id": "real-analyst-three-scenarios/1",
+  "description": "Public raw sources needed to reproduce meaningful Microsoft, NVIDIA, and Salesforce analyst-scenario tests from an empty local document root.",
+  "scenarios": [
+    {
+      "id": "msft-ai-capex-risk-return",
+      "company_id": "MSFT",
+      "analyst": "Keith Weiss",
+      "conference": "Microsoft FY2025 Q4 earnings call",
+      "question": "以FY2025 Q4为时点，评估微软快速增长的AI资本投入所面临的风险与已可观察回报。结合FY2023—FY2025公开资料，区分现金资本开支与含融资租赁投入，分析Azure增长、云盈利、现金流与仍无法量化的客户级或项目级ROI；不要把收入增长直接当作AI投资的因果回报。"
+    },
+    {
+      "id": "nvda-blackwell-margin-demand-deepseek",
+      "company_id": "NVDA",
+      "analyst": "Vivek Arya",
+      "conference": "NVIDIA FY2025 Q4 earnings call",
+      "question": "以NVIDIA FY2025 Q4为时点，分析Blackwell转换为何压低近期毛利率、当时有哪些信号支持需求持续，以及DeepSeek创新是否改变这一判断。区分已披露结果与管理层预期，不要用后来结果证明当时指引，也不要断言未来某季必然是毛利率低点。"
+    },
+    {
+      "id": "crm-agentforce-portfolio-catalyst",
+      "company_id": "CRM",
+      "analyst": "Keith Weiss",
+      "conference": "Salesforce FY2026 Q4 earnings call",
+      "question": "以Salesforce FY2026 Q4为时点，评估Agentforce能否带动更广泛产品组合增长。对照FY2024—FY2026公开业绩，区分ARR、使用量、收入、cRPO和并购贡献，分析总收入、订阅收入、利润与现金流；不要自行预测FY2027。"
+    }
+  ],
+  "limitations": [
+    "The script downloads from publisher or explicitly identified secondary URLs at run time; source availability can change.",
+    "HTML publisher pages are identity-checked by required text and each run records its actual SHA-256; immutable PDF bytes are pinned exactly.",
+    "The NVIDIA call transcript is a clearly labeled secondary source and remains rights_status=review_required.",
+    "Downloading and enrollment prepare research inputs; they do not reproduce a frozen report or count as model, publication, visual, or user acceptance."
+  ],
+  "sources": [
+    {
+      "source_id": "bigtech-msft-fy2023-annual",
+      "company_id": "MSFT",
+      "publisher": "Microsoft Corporation",
+      "title": "Microsoft 2023 Annual Report",
+      "url": "https://www.microsoft.com/investor/reports/ar23/index.html",
+      "published_at": null,
+      "media_types": [
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "rights": {
+        "use_boundary": "Downloaded by each local operator for reproducible testing; redistribution approval is not asserted."
+      },
+      "timeout_seconds": 30,
+      "bootstrap_validation": {
+        "reference_sha256": "5a136f3681efc2136e99ce39add47bc0ae21623b36924ef9e86c9436e8647b2f",
+        "reference_byte_length": 486646,
+        "required_text": [
+          "2023 Form 10-K",
+          "211,915",
+          "capital expenditures"
+        ],
+        "minimum_bytes": 243323,
+        "maximum_bytes": 973292,
+        "minimum_visible_chars": 50000
+      }
+    },
+    {
+      "source_id": "msft-fy2024-annual-report",
+      "company_id": "MSFT",
+      "publisher": "Microsoft Corporation",
+      "title": "Microsoft FY2024 Annual Report",
+      "url": "https://www.microsoft.com/investor/reports/ar24/index.html",
+      "published_at": null,
+      "media_types": [
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "rights": {
+        "use_boundary": "Downloaded by each local operator for reproducible testing; redistribution approval is not asserted."
+      },
+      "timeout_seconds": 30,
+      "bootstrap_validation": {
+        "reference_sha256": "2b49e38b25f3bea8634b603ad5db64ba0803f27e27f93cc406884e6990974065",
+        "reference_byte_length": 486883,
+        "required_text": [
+          "2024 Form 10-K",
+          "245,122",
+          "capital expenditures"
+        ],
+        "minimum_bytes": 243441,
+        "maximum_bytes": 973766,
+        "minimum_visible_chars": 50000
+      }
+    },
+    {
+      "source_id": "msft-fy2024-q4-press-release",
+      "company_id": "MSFT",
+      "publisher": "Microsoft Corporation",
+      "title": "Microsoft FY2024 Q4 press release and webcast page",
+      "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2024-Q4/press-release-webcast",
+      "published_at": "2024-07-30",
+      "media_types": [
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "rights": {
+        "use_boundary": "Downloaded by each local operator for reproducible testing; redistribution approval is not asserted."
+      },
+      "timeout_seconds": 30,
+      "bootstrap_validation": {
+        "reference_sha256": "4a3a24f148ba641711d24c356bad796c15126564dfbe0ec3f7877f32fa0ff0ad",
+        "reference_byte_length": 662233,
+        "required_text": [
+          "$64.7 billion",
+          "Microsoft Cloud",
+          "operating income"
+        ],
+        "minimum_bytes": 331116,
+        "maximum_bytes": 1324466,
+        "minimum_visible_chars": 5000
+      }
+    },
+    {
+      "source_id": "msft-fy2024-q4-segment-revenues-original-page",
+      "company_id": "MSFT",
+      "publisher": "Microsoft Corporation",
+      "title": "Microsoft FY2024 Q4 segment revenue and operating income page",
+      "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2024-Q4/segment-revenues",
+      "published_at": null,
+      "media_types": [
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "rights": {
+        "use_boundary": "Downloaded by each local operator for reproducible testing; redistribution approval is not asserted."
+      },
+      "timeout_seconds": 30,
+      "bootstrap_validation": {
+        "reference_sha256": "1932eb7fe6463ebefd678ae08e450952edd63f757c1063e0dd1beda398d9c912",
+        "reference_byte_length": 183418,
+        "required_text": [
+          "77,728",
+          "105,362",
+          "62,032"
+        ],
+        "minimum_bytes": 91709,
+        "maximum_bytes": 366836,
+        "minimum_visible_chars": 2000
+      }
+    },
+    {
+      "source_id": "msft-fy2025-annual-report",
+      "company_id": "MSFT",
+      "publisher": "Microsoft Corporation",
+      "title": "Microsoft FY2025 Annual Report",
+      "url": "https://www.microsoft.com/investor/reports/ar25/index.html",
+      "published_at": null,
+      "media_types": [
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "rights": {
+        "use_boundary": "Downloaded by each local operator for reproducible testing; redistribution approval is not asserted."
+      },
+      "timeout_seconds": 30,
+      "bootstrap_validation": {
+        "reference_sha256": "564154a15ac28c0f7f72f304ae26b74c29cfca9f3eafe8d59595776769d621ca",
+        "reference_byte_length": 601259,
+        "required_text": [
+          "2025 Form 10-K",
+          "281,724",
+          "capital expenditures"
+        ],
+        "minimum_bytes": 300629,
+        "maximum_bytes": 1202518,
+        "minimum_visible_chars": 50000
+      }
+    },
+    {
+      "source_id": "msft-fy2025-q4-earnings-call-transcript",
+      "company_id": "MSFT",
+      "publisher": "Microsoft Corporation",
+      "title": "Microsoft FY2025 Q4 earnings conference call transcript",
+      "url": "https://www.microsoft.com/en-us/investor/events/fy-2025/earnings-fy-2025-q4",
+      "published_at": "2025-07-30",
+      "media_types": [
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "rights": {
+        "use_boundary": "Downloaded by each local operator for reproducible testing; redistribution approval is not asserted."
+      },
+      "timeout_seconds": 30,
+      "bootstrap_validation": {
+        "reference_sha256": "73e803d902db6a55b72a8cb72c07b6cd9f06f6f87f1541dcea4e9e1329a16974",
+        "reference_byte_length": 337086,
+        "required_text": [
+          "capital expenditures",
+          "Azure",
+          "Microsoft Cloud"
+        ],
+        "minimum_bytes": 168543,
+        "maximum_bytes": 674172,
+        "minimum_visible_chars": 10000
+      }
+    },
+    {
+      "source_id": "msft-fy2025-q4-press-release",
+      "company_id": "MSFT",
+      "publisher": "Microsoft Corporation",
+      "title": "Microsoft FY2025 Q4 press release and webcast page",
+      "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2025-Q4/press-release-webcast",
+      "published_at": "2025-07-30",
+      "media_types": [
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "rights": {
+        "use_boundary": "Downloaded by each local operator for reproducible testing; redistribution approval is not asserted."
+      },
+      "timeout_seconds": 30,
+      "bootstrap_validation": {
+        "reference_sha256": "169c062bba9ab8140a2b7633048e890400111f533cf2ec56a671f2374668b91c",
+        "reference_byte_length": 534093,
+        "required_text": [
+          "$76.4 billion",
+          "Microsoft Cloud",
+          "operating income"
+        ],
+        "minimum_bytes": 267046,
+        "maximum_bytes": 1068186,
+        "minimum_visible_chars": 5000
+      }
+    },
+    {
+      "source_id": "msft-fy2025-q4-segment-revenues",
+      "company_id": "MSFT",
+      "publisher": "Microsoft Corporation",
+      "title": "Microsoft FY2025 Q4 segment revenue and operating income",
+      "url": "https://www.microsoft.com/en-us/Investor/earnings/FY-2025-Q4/segment-revenues",
+      "published_at": null,
+      "media_types": [
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "rights": {
+        "use_boundary": "Downloaded by each local operator for reproducible testing; redistribution approval is not asserted."
+      },
+      "timeout_seconds": 30,
+      "bootstrap_validation": {
+        "reference_sha256": "c7ebaff7fafbb92d2f542dfc0e1e344a4240b953e6335f89906713401812c69b",
+        "reference_byte_length": 187039,
+        "required_text": [
+          "106,820",
+          "87,464",
+          "50,838"
+        ],
+        "minimum_bytes": 93519,
+        "maximum_bytes": 374078,
+        "minimum_visible_chars": 2000
+      }
+    },
+    {
+      "source_id": "bigtech-nvda-fy2024-10k",
+      "company_id": "NVDA",
+      "publisher": "NVIDIA Corporation",
+      "title": "NVDA FY2024 Form 10-K",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2024/q4/1cbe8fe7-e08a-46e3-8dcc-b429fc06c1a4.pdf",
+      "published_at": null,
+      "media_types": [
+        "application/pdf"
+      ],
+      "rights_status": "review_required",
+      "rights": {
+        "use_boundary": "Downloaded by each local operator for reproducible testing; redistribution approval is not asserted."
+      },
+      "timeout_seconds": 30,
+      "bootstrap_validation": {
+        "reference_sha256": "536f66d7f1c3413abbf643e0a02bd0aab65639116fe630225f3f93529244658b",
+        "reference_byte_length": 1074533,
+        "exact_sha256": "536f66d7f1c3413abbf643e0a02bd0aab65639116fe630225f3f93529244658b"
+      }
+    },
+    {
+      "source_id": "bigtech-nvda-fy2025-10k",
+      "company_id": "NVDA",
+      "publisher": "NVIDIA Corporation",
+      "title": "NVDA FY2025 Form 10-K",
+      "url": "https://s201.q4cdn.com/141608511/files/doc_financials/2025/q4/177440d5-3b32-4185-8cc8-95500a9dc783.pdf",
+      "published_at": null,
+      "media_types": [
+        "application/pdf"
+      ],
+      "rights_status": "review_required",
+      "rights": {
+        "use_boundary": "Downloaded by each local operator for reproducible testing; redistribution approval is not asserted."
+      },
+      "timeout_seconds": 30,
+      "bootstrap_validation": {
+        "reference_sha256": "b67bd67a64488a54886de001c788bc5059a965fc6ef5b4d8b71624951e13df8e",
+        "reference_byte_length": 1274715,
+        "exact_sha256": "b67bd67a64488a54886de001c788bc5059a965fc6ef5b4d8b71624951e13df8e"
+      }
+    },
+    {
+      "source_id": "nvda-fy2024-q4-press-release",
+      "company_id": "NVDA",
+      "publisher": "NVIDIA Corporation",
+      "title": "NVIDIA announces financial results for fourth quarter and fiscal 2024",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2024",
+      "published_at": "2024-02-21",
+      "media_types": [
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "rights": {
+        "use_boundary": "Downloaded by each local operator for reproducible testing; redistribution approval is not asserted."
+      },
+      "timeout_seconds": 30,
+      "bootstrap_validation": {
+        "reference_sha256": "3cc5e99db8f4ad94ad915b5c9d8f3d372b5b800bf3c4b9f81a929b2713a5cd04",
+        "reference_byte_length": 447640,
+        "required_text": [
+          "$22.1 billion",
+          "Data Center",
+          "gross margin"
+        ],
+        "minimum_bytes": 223820,
+        "maximum_bytes": 895280,
+        "minimum_visible_chars": 5000
+      }
+    },
+    {
+      "source_id": "nvda-fy2025-q4-call-fool-globe-transcript",
+      "company_id": "NVDA",
+      "publisher": "The Globe and Mail (republication of The Motley Fool transcript)",
+      "title": "NVIDIA FY2025 Q4 earnings call transcript — Motley Fool via The Globe and Mail (secondary source)",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/NVDA/pressreleases/31138858/nvidia-nvda-q4-2025-earnings-call-transcript/",
+      "published_at": "2025-02-26",
+      "media_types": [
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "rights": {
+        "use_boundary": "Downloaded by each local operator for reproducible testing; redistribution approval is not asserted."
+      },
+      "timeout_seconds": 30,
+      "bootstrap_validation": {
+        "reference_sha256": "e7bcf23b9767cfc6c25e0d4daef151d64cd41e8ce003ff22f457c66345d09f92",
+        "reference_byte_length": 819557,
+        "required_text": [
+          "Blackwell",
+          "gross margin",
+          "DeepSeek"
+        ],
+        "minimum_bytes": 409778,
+        "maximum_bytes": 1639114,
+        "minimum_visible_chars": 10000
+      }
+    },
+    {
+      "source_id": "nvda-fy2025-q4-press-release",
+      "company_id": "NVDA",
+      "publisher": "NVIDIA Corporation",
+      "title": "NVIDIA announces financial results for fourth quarter and fiscal 2025",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-fourth-quarter-and-fiscal-2025",
+      "published_at": "2025-02-26",
+      "media_types": [
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "rights": {
+        "use_boundary": "Downloaded by each local operator for reproducible testing; redistribution approval is not asserted."
+      },
+      "timeout_seconds": 30,
+      "bootstrap_validation": {
+        "reference_sha256": "121af64027c06714de561b9888ceebd604856d214248a3ad187f5715a9de863d",
+        "reference_byte_length": 400279,
+        "required_text": [
+          "$39.3 billion",
+          "Data Center",
+          "gross margin"
+        ],
+        "minimum_bytes": 200139,
+        "maximum_bytes": 800558,
+        "minimum_visible_chars": 5000
+      }
+    },
+    {
+      "source_id": "crm-fy2024-q4-press-release",
+      "company_id": "CRM",
+      "publisher": "Salesforce, Inc.",
+      "title": "Salesforce announces fourth quarter and fiscal year 2024 results",
+      "url": "https://www.salesforce.com/news/press-releases/2024/02/28/fy24-q4-earnings/",
+      "published_at": "2024-02-28",
+      "media_types": [
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "rights": {
+        "use_boundary": "Downloaded by each local operator for reproducible testing; redistribution approval is not asserted."
+      },
+      "timeout_seconds": 30,
+      "bootstrap_validation": {
+        "reference_sha256": "bafd8d4db6f8b9134fa61a2943a975379adabeeed5cbf758b71598328d08bcd3",
+        "reference_byte_length": 169088,
+        "required_text": [
+          "$9.29 billion",
+          "remaining performance obligation",
+          "operating cash flow"
+        ],
+        "minimum_bytes": 84544,
+        "maximum_bytes": 338176,
+        "minimum_visible_chars": 3000
+      }
+    },
+    {
+      "source_id": "crm-fy2025-annual-report",
+      "company_id": "CRM",
+      "publisher": "Salesforce, Inc.",
+      "title": "Salesforce FY25 Annual Report",
+      "url": "https://s205.q4cdn.com/626266368/files/doc_financials/2025/ar/Salesforce-FY25-Annual-Report.pdf",
+      "published_at": null,
+      "media_types": [
+        "application/pdf"
+      ],
+      "rights_status": "review_required",
+      "rights": {
+        "use_boundary": "Downloaded by each local operator for reproducible testing; redistribution approval is not asserted."
+      },
+      "timeout_seconds": 30,
+      "bootstrap_validation": {
+        "reference_sha256": "90aaa33dc16dabedc548122850e1f8cbc038bda9b0c9d9c7800d8727294f76d1",
+        "reference_byte_length": 3524710,
+        "exact_sha256": "90aaa33dc16dabedc548122850e1f8cbc038bda9b0c9d9c7800d8727294f76d1"
+      }
+    },
+    {
+      "source_id": "crm-fy2025-q4-press-release",
+      "company_id": "CRM",
+      "publisher": "Salesforce, Inc.",
+      "title": "Salesforce announces fourth quarter and fiscal year 2025 results",
+      "url": "https://www.salesforce.com/news/press-releases/2025/02/26/fy25-q4-earnings/",
+      "published_at": "2025-02-26",
+      "media_types": [
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "rights": {
+        "use_boundary": "Downloaded by each local operator for reproducible testing; redistribution approval is not asserted."
+      },
+      "timeout_seconds": 30,
+      "bootstrap_validation": {
+        "reference_sha256": "3047fcba234dc2ff1a7791429c397f2253d2564f26a27104dbfc7aa7edef78b7",
+        "reference_byte_length": 165299,
+        "required_text": [
+          "$10.0 billion",
+          "remaining performance obligation",
+          "operating cash flow"
+        ],
+        "minimum_bytes": 82649,
+        "maximum_bytes": 330598,
+        "minimum_visible_chars": 3000
+      }
+    },
+    {
+      "source_id": "crm-fy2026-q4-call-official-transcript",
+      "company_id": "CRM",
+      "publisher": "Salesforce, Inc.",
+      "title": "Salesforce FY2026 Q4 earnings call transcript — official",
+      "url": "https://s205.q4cdn.com/626266368/files/doc_financials/2026/q4/Transcript-Salesforce-Inc-Q4-FY26-Earnings-Conference-Call-2-25-26.pdf",
+      "published_at": "2026-02-25",
+      "media_types": [
+        "application/pdf"
+      ],
+      "rights_status": "review_required",
+      "rights": {
+        "use_boundary": "Downloaded by each local operator for reproducible testing; redistribution approval is not asserted."
+      },
+      "timeout_seconds": 30,
+      "bootstrap_validation": {
+        "reference_sha256": "85eeb217c8d6b83fa4143617f1d093aa31edd881dbd78c5028151c622e4aba91",
+        "reference_byte_length": 273370,
+        "exact_sha256": "85eeb217c8d6b83fa4143617f1d093aa31edd881dbd78c5028151c622e4aba91"
+      }
+    },
+    {
+      "source_id": "crm-fy2026-q4-earnings-pdf",
+      "company_id": "CRM",
+      "publisher": "Salesforce, Inc.",
+      "title": "Salesforce Delivers Record Fourth Quarter Fiscal 2026 Results — Financial Statements",
+      "url": "https://s205.q4cdn.com/626266368/files/doc_financials/2026/q4/CRM-Q4-FY26-Earnings-Press-Release.pdf",
+      "published_at": "2026-02-25",
+      "media_types": [
+        "application/pdf"
+      ],
+      "rights_status": "review_required",
+      "rights": {
+        "use_boundary": "Downloaded by each local operator for reproducible testing; redistribution approval is not asserted."
+      },
+      "timeout_seconds": 30,
+      "bootstrap_validation": {
+        "reference_sha256": "354af69b3f976791e8f4c608fc86c1664af08d77a1d236197f362ebb2a4ab4d7",
+        "reference_byte_length": 578266,
+        "exact_sha256": "354af69b3f976791e8f4c608fc86c1664af08d77a1d236197f362ebb2a4ab4d7"
+      }
+    },
+    {
+      "source_id": "crm-fy2026-q4-press-release",
+      "company_id": "CRM",
+      "publisher": "Salesforce, Inc.",
+      "title": "Salesforce Delivers Record Fourth Quarter Fiscal 2026 Results",
+      "url": "https://www.salesforce.com/news/press-releases/2026/02/25/fy26-q4-earnings/",
+      "published_at": "2026-02-25",
+      "media_types": [
+        "text/html"
+      ],
+      "rights_status": "review_required",
+      "rights": {
+        "use_boundary": "Downloaded by each local operator for reproducible testing; redistribution approval is not asserted."
+      },
+      "timeout_seconds": 30,
+      "bootstrap_validation": {
+        "reference_sha256": "c34a735740e6177ce2e1de9363ef4b2263ef0b54ad8b64ebfff713b582a54dfe",
+        "reference_byte_length": 181396,
+        "required_text": [
+          "$11.2 billion",
+          "remaining performance obligation",
+          "operating cash flow"
+        ],
+        "minimum_bytes": 90698,
+        "maximum_bytes": 362792,
+        "minimum_visible_chars": 3000
+      }
+    }
+  ]
+}

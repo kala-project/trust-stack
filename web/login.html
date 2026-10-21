@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'none'; object-src 'none'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'">
+  <title>Sign in · TrustStack</title>
+  <script src="ui-preferences.js"></script>
+  <link rel="stylesheet" href="auth.css">
+  <script src="auth.js" defer></script>
+</head>
+<body>
+  <main class="auth-shell">
+    <label class="auth-theme"><span>Theme</span><select data-theme-select aria-label="Theme"><option value="system">System</option><option value="light">Light</option><option value="dark">Dark</option></select></label>
+    <section class="auth-card" aria-labelledby="auth-title">
+      <div class="brand-mark" aria-hidden="true">T</div>
+      <p class="eyebrow">Research workspace</p>
+      <h1 id="auth-title">Sign in to TrustStack</h1>
+      <p id="auth-intro">Enter the workspace password to continue to your research and materials.</p>
+      <div id="auth-error" class="error" role="alert" tabindex="-1" hidden></div>
+      <form id="login-form">
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" minlength="12" maxlength="256" autocomplete="current-password" required>
+        <button type="submit">Sign in</button>
+      </form>
+      <form id="initialize-form" hidden>
+        <p>First startup: read the one-time secret from the server-local bootstrap file with 0600 permissions. The secret never appears in logs, URLs, or responses.</p>
+        <label for="bootstrap">One-time bootstrap secret</label>
+        <input id="bootstrap" name="bootstrap" type="password" autocomplete="off" required>
+        <label for="new-password">New password (12–256 Unicode characters)</label>
+        <input id="new-password" name="new-password" type="password" minlength="12" maxlength="256" autocomplete="new-password" required>
+        <label for="confirm-password">Confirm new password</label>
+        <input id="confirm-password" name="confirm-password" type="password" minlength="12" maxlength="256" autocomplete="new-password" required>
+        <button type="submit">Initialize owner</button>
+      </form>
+      <p class="privacy">Do not save passwords on shared devices. HTTP connections are not encrypted; use them only on trusted networks. HTTPS is recommended for remote access.</p>
+    </section>
+  </main>
+</body>
+</html>

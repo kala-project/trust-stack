@@ -1,0 +1,349 @@
+{
+  "version": "s3-development-policy/1",
+  "reviewed_at": "2026-10-02T10:15:37.685849+00:00",
+  "minimum_release_age_days": 30,
+  "sdk_source": "https://aws.amazon.com/sdk-for-python/",
+  "sdk_installation_allowed": true,
+  "wheel_candidates_not_approved": [
+    {
+      "name": "boto3",
+      "version": "1.43.86",
+      "filename": "boto3-1.43.86-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/f9/dd/f4874f7bab882a778178b03965b1474c63f2e8bd2eea5dd714f06b0e8713/boto3-1.43.86-py3-none-any.whl",
+      "sha256": "94543a5ce482df8bb6a0bf8a944bf5ccf6625889b1df0d7886dfc3311ebd4169",
+      "uploaded_at": "2026-09-01T19:24:00.638739Z",
+      "license": "Apache-2.0",
+      "license_files": [
+        "boto3-1.43.86.dist-info/LICENSE"
+      ],
+      "requires_dist": [
+        "botocore (<1.44.0,>=1.43.86)",
+        "jmespath (<2.0.0,>=0.7.1)",
+        "s3transfer (<0.20.0,>=0.19.0)",
+        "botocore[crt] (<2.0a0,>=1.21.0) ; extra == 'crt'"
+      ],
+      "project_urls": [
+        "Documentation, https://docs.aws.amazon.com/boto3/latest/",
+        "Source, https://github.com/boto/boto3"
+      ]
+    },
+    {
+      "name": "botocore",
+      "version": "1.43.86",
+      "filename": "botocore-1.43.86-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/41/59/eb95d57ea576feaf1693f5e914f9f27ff9961429cf9ecbc85cef610a6d84/botocore-1.43.86-py3-none-any.whl",
+      "sha256": "4efc7fbd6e7616edbd55623bb585a044906149b9a5d3d8558420506526e5a5ac",
+      "uploaded_at": "2026-09-01T19:23:54.013575Z",
+      "license": "Apache-2.0",
+      "license_files": [
+        "botocore/data/license-manager/2018-08-01/endpoint-rule-set-1.json.gz",
+        "botocore/data/license-manager/2018-08-01/examples-1.json",
+        "botocore/data/license-manager/2018-08-01/paginators-1.json",
+        "botocore/data/license-manager/2018-08-01/service-2.json.gz",
+        "botocore/data/license-manager-linux-subscriptions/2018-05-10/endpoint-rule-set-1.json.gz",
+        "botocore/data/license-manager-linux-subscriptions/2018-05-10/paginators-1.json",
+        "botocore/data/license-manager-linux-subscriptions/2018-05-10/service-2.json.gz",
+        "botocore/data/license-manager-user-subscriptions/2018-05-10/endpoint-rule-set-1.json.gz",
+        "botocore/data/license-manager-user-subscriptions/2018-05-10/paginators-1.json",
+        "botocore/data/license-manager-user-subscriptions/2018-05-10/service-2.json.gz",
+        "botocore/data/license-manager-user-subscriptions/2018-05-10/waiters-2.json",
+        "botocore-1.43.86.dist-info/LICENSE.txt"
+      ],
+      "requires_dist": [
+        "jmespath (<2.0.0,>=0.7.1)",
+        "python-dateutil (<3.0.0,>=2.1)",
+        "urllib3 (!=2.2.0,<3,>=1.25.4)",
+        "awscrt (==0.36.0) ; extra == 'crt'"
+      ],
+      "project_urls": []
+    },
+    {
+      "name": "s3transfer",
+      "version": "0.19.2",
+      "filename": "s3transfer-0.19.2-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/bc/e7/5c595c75e9f41a44f30e526eda465ea0b4eec93470e074e4a111b253f13a/s3transfer-0.19.2-py3-none-any.whl",
+      "sha256": "d8168eccca828cbb2cd573675333f3bddd254313a9c42494b84c76b539e8ba25",
+      "uploaded_at": "2026-07-22T19:30:43.251801Z",
+      "license": "Apache License 2.0",
+      "license_files": [
+        "s3transfer-0.19.2.dist-info/LICENSE.txt"
+      ],
+      "requires_dist": [
+        "botocore (<2.0a.0,>=1.37.4)",
+        "botocore[crt] (<2.0a.0,>=1.37.4) ; extra == 'crt'"
+      ],
+      "project_urls": []
+    },
+    {
+      "name": "jmespath",
+      "version": "1.1.0",
+      "filename": "jmespath-1.1.0-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/14/2f/967ba146e6d58cf6a652da73885f52fc68001525b4197effc174321d70b4/jmespath-1.1.0-py3-none-any.whl",
+      "sha256": "a5663118de4908c91729bea0acadca56526eb2698e83de10cd116ae0f4e97c64",
+      "uploaded_at": "2026-01-22T16:35:24.919874Z",
+      "license": "MIT",
+      "license_files": [
+        "jmespath-1.1.0.dist-info/LICENSE"
+      ],
+      "requires_dist": [],
+      "project_urls": []
+    },
+    {
+      "name": "urllib3",
+      "version": "2.7.0",
+      "filename": "urllib3-2.7.0-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/7f/3e/5db95bcf282c52709639744ca2a8b149baccf648e39c8cc87553df9eae0c/urllib3-2.7.0-py3-none-any.whl",
+      "sha256": "9fb4c81ebbb1ce9531cce37674bbc6f1360472bc18ca9a553ede278ef7276897",
+      "uploaded_at": "2026-05-07T16:13:17.151740Z",
+      "license": "MIT",
+      "license_files": [
+        "urllib3-2.7.0.dist-info/licenses/LICENSE.txt"
+      ],
+      "requires_dist": [
+        "brotli>=1.2.0; (platform_python_implementation == 'CPython') and extra == 'brotli'",
+        "brotlicffi>=1.2.0.0; (platform_python_implementation != 'CPython') and extra == 'brotli'",
+        "h2<5,>=4; extra == 'h2'",
+        "pysocks!=1.5.7,<2.0,>=1.5.6; extra == 'socks'",
+        "backports-zstd>=1.0.0; (python_version < '3.14') and extra == 'zstd'"
+      ],
+      "project_urls": [
+        "Changelog, https://github.com/urllib3/urllib3/blob/main/CHANGES.rst",
+        "Documentation, https://urllib3.readthedocs.io",
+        "Code, https://github.com/urllib3/urllib3",
+        "Issue tracker, https://github.com/urllib3/urllib3/issues"
+      ]
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "filename": "python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+      "sha256": "a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427",
+      "uploaded_at": "2024-03-01T18:36:18.570437Z",
+      "license": "Dual License",
+      "license_files": [
+        "python_dateutil-2.9.0.post0.dist-info/LICENSE"
+      ],
+      "requires_dist": [
+        "six >=1.5"
+      ],
+      "project_urls": [
+        "Documentation, https://dateutil.readthedocs.io/en/stable/",
+        "Source, https://github.com/dateutil/dateutil"
+      ]
+    },
+    {
+      "name": "six",
+      "version": "1.17.0",
+      "filename": "six-1.17.0-py2.py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl",
+      "sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274",
+      "uploaded_at": "2024-12-04T17:35:26.475808Z",
+      "license": "MIT",
+      "license_files": [
+        "six-1.17.0.dist-info/LICENSE"
+      ],
+      "requires_dist": [],
+      "project_urls": []
+    }
+  ],
+  "container": {
+    "image": "adobe/s3mock@sha256:4897c37314a72ae13509513905a102e7642de3854f52fcfc2b1c5e59bab41b7e",
+    "release": "5.2.0",
+    "release_published_at": "2026-08-22T12:41:28Z",
+    "image_last_pushed_at": "2026-08-22T12:23:58.185484915Z",
+    "scope": "isolated-local-protocol-tests-only",
+    "uid": 1000,
+    "gid": 1000,
+    "privileged": false,
+    "read_only_root": true,
+    "capabilities": [],
+    "no_new_privileges": true,
+    "listen": "127.0.0.1:19091",
+    "docker_daemon_rootless": false,
+    "outbound_network_blocked": false,
+    "limitations": [
+      "No production IAM/Object Lock validation",
+      "No claim of exhaustive base-image/Java vulnerability review",
+      "S3Mock docs do not guarantee persisted-format reuse; tested pinned-version restart only",
+      "No active documents or credentials mounted"
+    ]
+  },
+  "evidence_root": "var/s3-runtime/supply-chain",
+  "historical_sdk_blocker": {
+    "package": "urllib3",
+    "candidate_version": "2.7.0",
+    "known_advisories": [
+      "GHSA-8988-9cw3-xx77",
+      "GHSA-gh4c-6fx4-qh6g",
+      "GHSA-vxq7-64xx-v4gw"
+    ],
+    "fixed_version": "2.8.0",
+    "fixed_wheel_uploaded_at": "2026-09-15T19:29:34.577402Z",
+    "reason": "No examined compatible version satisfies both the 30-day policy and these published security fixes. No SDK wheels installed. Security exception requires explicit user decision."
+  },
+  "sdk_installation_scope": "isolated-local-S3-SDK-only",
+  "age_exceptions": [
+    {
+      "name": "urllib3",
+      "version": "2.8.0",
+      "sha256": "0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3",
+      "authorization": "User explicitly selected security-fix-exception in this session on 2026-10-02",
+      "reason": "Security fixes for the three advisories in historical_sdk_blocker; no wider waiver"
+    }
+  ],
+  "approved_wheels": [
+    {
+      "name": "boto3",
+      "version": "1.43.86",
+      "filename": "boto3-1.43.86-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/f9/dd/f4874f7bab882a778178b03965b1474c63f2e8bd2eea5dd714f06b0e8713/boto3-1.43.86-py3-none-any.whl",
+      "sha256": "94543a5ce482df8bb6a0bf8a944bf5ccf6625889b1df0d7886dfc3311ebd4169",
+      "uploaded_at": "2026-09-01T19:24:00.638739Z",
+      "yanked": false,
+      "license": "Apache-2.0",
+      "license_files": [
+        "boto3-1.43.86.dist-info/LICENSE"
+      ],
+      "requires_dist": [
+        "botocore (<1.44.0,>=1.43.86)",
+        "jmespath (<2.0.0,>=0.7.1)",
+        "s3transfer (<0.20.0,>=0.19.0)",
+        "botocore[crt] (<2.0a0,>=1.21.0) ; extra == 'crt'"
+      ],
+      "project_urls": [
+        "Documentation, https://docs.aws.amazon.com/boto3/latest/",
+        "Source, https://github.com/boto/boto3"
+      ],
+      "age_exception": false
+    },
+    {
+      "name": "botocore",
+      "version": "1.43.86",
+      "filename": "botocore-1.43.86-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/41/59/eb95d57ea576feaf1693f5e914f9f27ff9961429cf9ecbc85cef610a6d84/botocore-1.43.86-py3-none-any.whl",
+      "sha256": "4efc7fbd6e7616edbd55623bb585a044906149b9a5d3d8558420506526e5a5ac",
+      "uploaded_at": "2026-09-01T19:23:54.013575Z",
+      "yanked": false,
+      "license": "Apache-2.0",
+      "license_files": [
+        "botocore-1.43.86.dist-info/LICENSE.txt"
+      ],
+      "requires_dist": [
+        "jmespath (<2.0.0,>=0.7.1)",
+        "python-dateutil (<3.0.0,>=2.1)",
+        "urllib3 (!=2.2.0,<3,>=1.25.4)",
+        "awscrt (==0.36.0) ; extra == 'crt'"
+      ],
+      "project_urls": [],
+      "age_exception": false
+    },
+    {
+      "name": "s3transfer",
+      "version": "0.19.2",
+      "filename": "s3transfer-0.19.2-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/bc/e7/5c595c75e9f41a44f30e526eda465ea0b4eec93470e074e4a111b253f13a/s3transfer-0.19.2-py3-none-any.whl",
+      "sha256": "d8168eccca828cbb2cd573675333f3bddd254313a9c42494b84c76b539e8ba25",
+      "uploaded_at": "2026-07-22T19:30:43.251801Z",
+      "yanked": false,
+      "license": "Apache License 2.0",
+      "license_files": [
+        "s3transfer-0.19.2.dist-info/LICENSE.txt"
+      ],
+      "requires_dist": [
+        "botocore (<2.0a.0,>=1.37.4)",
+        "botocore[crt] (<2.0a.0,>=1.37.4) ; extra == 'crt'"
+      ],
+      "project_urls": [],
+      "age_exception": false
+    },
+    {
+      "name": "jmespath",
+      "version": "1.1.0",
+      "filename": "jmespath-1.1.0-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/14/2f/967ba146e6d58cf6a652da73885f52fc68001525b4197effc174321d70b4/jmespath-1.1.0-py3-none-any.whl",
+      "sha256": "a5663118de4908c91729bea0acadca56526eb2698e83de10cd116ae0f4e97c64",
+      "uploaded_at": "2026-01-22T16:35:24.919874Z",
+      "yanked": false,
+      "license": "MIT",
+      "license_files": [
+        "jmespath-1.1.0.dist-info/LICENSE"
+      ],
+      "requires_dist": [],
+      "project_urls": [],
+      "age_exception": false
+    },
+    {
+      "name": "urllib3",
+      "version": "2.8.0",
+      "filename": "urllib3-2.8.0-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/92/9d/c4e665119135114480843e7ab388fa94d8480650450e6f8e26b70d323a4c/urllib3-2.8.0-py3-none-any.whl",
+      "sha256": "0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3",
+      "uploaded_at": "2026-09-15T19:29:34.577402Z",
+      "yanked": false,
+      "license": "MIT",
+      "license_files": [
+        "urllib3-2.8.0.dist-info/licenses/LICENSE.txt"
+      ],
+      "requires_dist": [
+        "brotli>=1.2.0; (platform_python_implementation == 'CPython') and extra == 'brotli'",
+        "brotlicffi>=1.2.0.0; (platform_python_implementation != 'CPython') and extra == 'brotli'",
+        "h2<5,>=4; extra == 'h2'",
+        "pysocks!=1.5.7,<2.0,>=1.5.6; extra == 'socks'",
+        "backports-zstd>=1.0.0; (python_version < '3.14') and extra == 'zstd'"
+      ],
+      "project_urls": [
+        "Changelog, https://github.com/urllib3/urllib3/blob/main/CHANGES.rst",
+        "Documentation, https://urllib3.readthedocs.io",
+        "Code, https://github.com/urllib3/urllib3",
+        "Issue tracker, https://github.com/urllib3/urllib3/issues",
+        "Security policy, https://urllib3.readthedocs.io/en/latest/security.html"
+      ],
+      "age_exception": true
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "filename": "python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+      "sha256": "a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427",
+      "uploaded_at": "2024-03-01T18:36:18.570437Z",
+      "yanked": false,
+      "license": "Dual License",
+      "license_files": [
+        "python_dateutil-2.9.0.post0.dist-info/LICENSE"
+      ],
+      "requires_dist": [
+        "six >=1.5"
+      ],
+      "project_urls": [
+        "Documentation, https://dateutil.readthedocs.io/en/stable/",
+        "Source, https://github.com/dateutil/dateutil"
+      ],
+      "age_exception": false
+    },
+    {
+      "name": "six",
+      "version": "1.17.0",
+      "filename": "six-1.17.0-py2.py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl",
+      "sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274",
+      "uploaded_at": "2024-12-04T17:35:26.475808Z",
+      "yanked": false,
+      "license": "MIT",
+      "license_files": [
+        "six-1.17.0.dist-info/LICENSE"
+      ],
+      "requires_dist": [],
+      "project_urls": [],
+      "age_exception": false
+    }
+  ],
+  "known_vulnerability_review": {
+    "at": "2026-10-02T10:15:37.685849+00:00",
+    "provider": "OSV querybatch",
+    "matches": 0,
+    "evidence": "var/s3-runtime/supply-chain/s3-approved-exception-osv.json",
+    "limitation": "No matches is not a guarantee of absence of vulnerabilities or malicious code"
+  }
+}
